@@ -180,7 +180,8 @@ class DataPreprocessingToolkit(object):
         :rtype: pd.DataFrame
         """
         
-        df['n_people'] = df['n_people'] + df['n_children_1'] + df['n_children_2'] + df['n_children_3']
+        df['n_people'] = (df['n_people'] + df['n_children_1'] + df['n_children_2'] + df['n_children_3']).replace(0, 1)
+
         return df
 
     @staticmethod
