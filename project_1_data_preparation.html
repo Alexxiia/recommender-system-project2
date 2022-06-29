@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>7355322e917d457193e53339d6891e02</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>load_ext autoreload</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>autoreload <span class="dv">2</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Markdown, display, HTML</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> defaultdict</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_columns&#39;</span>, <span class="dv">50</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&#39;display.max_rows&#39;</span>, <span class="dv">1000</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Fix the dying kernel problem (only a problem in some installations - you can remove it, if it works without it)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&#39;KMP_DUPLICATE_LIB_OK&#39;</span>] <span class="op">=</span> <span class="st">&#39;True&#39;</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="39" data-scrolled="true">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> data_preprocessing.dataset_specification <span class="im">import</span> DatasetSpecification</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> data_preprocessing.data_preprocessing_toolkit <span class="im">import</span> DataPreprocessingToolkit</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> data_preprocessing.people_identifier <span class="im">import</span> PeopleIdentifier</span></code></pre></div>
+</div>
+<section id="load-original-data" class="cell markdown">
+<h1>Load original data</h1>
+</section>
+<div class="cell code" data-execution_count="40" data-scrolled="false">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data_path <span class="op">=</span> os.path.join(<span class="st">&quot;data&quot;</span>, <span class="st">&quot;hotel_data&quot;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>original_data <span class="op">=</span> pd.read_csv(os.path.join(data_path, <span class="st">&quot;hotel_data_original.csv&quot;</span>), index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>original_data <span class="op">=</span> original_data.replace({<span class="st">&quot;</span><span class="ch">\\</span><span class="st">N&quot;</span>: <span class="st">&quot;&quot;</span>})</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>original_data <span class="op">=</span> original_data.fillna(<span class="st">&quot;&quot;</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>numeric_columns <span class="op">=</span> [<span class="st">&quot;n_people&quot;</span>, <span class="st">&quot;n_children_1&quot;</span>, <span class="st">&quot;n_children_2&quot;</span>, <span class="st">&quot;n_children_3&quot;</span>,</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;discount&quot;</span>, <span class="st">&quot;accommodation_price&quot;</span>, <span class="st">&quot;meal_price&quot;</span>, <span class="st">&quot;service_price&quot;</span>,</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>                   <span class="st">&quot;paid&quot;</span>]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> numeric_columns:</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    original_data.loc[:, column] <span class="op">=</span> pd.to_numeric(original_data.loc[:, column], errors<span class="op">=</span><span class="st">&quot;coerce&quot;</span>)</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>original_data <span class="op">=</span> original_data.astype(</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>        {</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;date_from&quot;</span>: np.datetime64,</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;date_to&quot;</span>: np.datetime64,</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;booking_time&quot;</span>: np.datetime64,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;booking_date&quot;</span>: np.datetime64,</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;n_people&quot;</span>: np.int64,</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;n_children_1&quot;</span>: np.int64,</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;n_children_2&quot;</span>: np.int64,</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;n_children_3&quot;</span>: np.int64,</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;discount&quot;</span>: np.float64,</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;accommodation_price&quot;</span>: np.float64,</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;meal_price&quot;</span>: np.float64,</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;service_price&quot;</span>: np.float64,</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>            <span class="st">&quot;paid&quot;</span>: np.float64,</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        }</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>display(original_data.head(<span class="dv">15</span>))</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>reservation_id</th>
+      <th>group_id</th>
+      <th>room_id</th>
+      <th>room_group_id</th>
+      <th>date_from</th>
+      <th>date_to</th>
+      <th>booking_date</th>
+      <th>booking_time</th>
+      <th>n_people</th>
+      <th>n_children_1</th>
+      <th>n_children_2</th>
+      <th>n_children_3</th>
+      <th>discount</th>
+      <th>accommodation_price</th>
+      <th>meal_price</th>
+      <th>service_price</th>
+      <th>paid</th>
+      <th>rate_plan</th>
+      <th>client_id</th>
+      <th>client_name</th>
+      <th>email</th>
+      <th>phone</th>
+      <th>is_company</th>
+      <th>reservation_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>14160</td>
+      <td></td>
+      <td>135</td>
+      <td>135</td>
+      <td>2017-09-01</td>
+      <td>2018-03-30</td>
+      <td>2017-07-04</td>
+      <td>2017-07-04 10:52:00</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>0.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.00</td>
+      <td>Standard</td>
+      <td>51665</td>
+      <td>86bd787ca115281ad9642c5fd6e79e6f2d87841c2fd9c6...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>16075</td>
+      <td></td>
+      <td>118</td>
+      <td>118</td>
+      <td>2018-02-10</td>
+      <td>2018-02-12</td>
+      <td>2017-08-17</td>
+      <td>2017-08-17 15:01:00</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>992.29</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>Standard</td>
+      <td>54117</td>
+      <td>ca83ddae9b7d15212b5391c815a689b8acfd8ef31d0d80...</td>
+      <td></td>
+      <td>318faec979ecaf8adaee0c8e5d7531a67f309b7247d30b...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>16076</td>
+      <td></td>
+      <td>270</td>
+      <td>270</td>
+      <td>2018-02-28</td>
+      <td>2018-03-02</td>
+      <td>2017-08-17</td>
+      <td>2017-08-17 15:08:00</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>693.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>693.40</td>
+      <td>Standard</td>
+      <td>54118</td>
+      <td>4db36724fc28085e053a3003dce55368ee207cce37d355...</td>
+      <td>f9c0564c66d6a830c4964a30ac261038dd7cf762b0641c...</td>
+      <td>cb550ba6d303bf230379073bcbdd55c37229eab3f173dc...</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>16635</td>
+      <td></td>
+      <td>294</td>
+      <td>294</td>
+      <td>2018-02-14</td>
+      <td>2018-02-15</td>
+      <td>2017-08-29</td>
+      <td>2017-08-29 13:58:00</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>366.80</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>Standard</td>
+      <td>54790</td>
+      <td>e41ecdb28a96d0b3e294aea6e854d8dc39a1d61bb3dfe4...</td>
+      <td>f6a8c77530865b7e437eb746c3564c4cbdc522c10d35f6...</td>
+      <td>1c56315c10c9d8153ca7820648900befbd9109fb6cfb81...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>16964</td>
+      <td></td>
+      <td>183</td>
+      <td>183</td>
+      <td>2018-02-03</td>
+      <td>2018-02-09</td>
+      <td>2017-09-04</td>
+      <td>2017-09-04 15:52:00</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>1064.60</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>Standard</td>
+      <td>55177</td>
+      <td>5380adccf08ea3000791aad3ccc478e3b6a8de440910aa...</td>
+      <td>6d08a7230580a09f1fde268bb7c1a5d74a55bdcc9183f8...</td>
+      <td>3aff5ce689580e51de899de8ec75e8a8eaa470e4e99df4...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>17173</td>
+      <td></td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-01-29</td>
+      <td>2018-02-02</td>
+      <td>2017-09-07</td>
+      <td>2017-09-07 13:21:00</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>713.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>Standard</td>
+      <td>55412</td>
+      <td>4aebfe125cf6c059588792b9fb871afe282a8806299dfe...</td>
+      <td>0d6aafda88cc3d5844da8c60ca9d1b6682f1ce1a4dfe12...</td>
+      <td>ea16c664798581a9d93a3128d772b8b89e05743edbbfae...</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>17308</td>
+      <td></td>
+      <td>111</td>
+      <td>111</td>
+      <td>2018-03-28</td>
+      <td>2018-03-31</td>
+      <td>2017-09-11</td>
+      <td>2017-09-11 10:31:00</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>800.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>800.00</td>
+      <td>Standard</td>
+      <td>55560</td>
+      <td>1f4b60816f6efcb45dfa67da7a6adab42d4a05b90a9278...</td>
+      <td>6163ca5013b2bc940219a59d0e30ec401ecd01bb498e03...</td>
+      <td>516b31d7892e1b5f4b6078ea0fc4c63a06bb9ceceb885d...</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>120165</td>
+      <td></td>
+      <td>162</td>
+      <td>162</td>
+      <td>2018-11-16</td>
+      <td>2018-11-17</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>402.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>402.00</td>
+      <td>Standard</td>
+      <td>63419</td>
+      <td>d47bcb623e5031df97cd9faf472e28d9fe40f1386bbd92...</td>
+      <td>5213ac7a6db98631330ac74a241ffdf840e1857481a0b5...</td>
+      <td>6416a3bc7ea31b09ae63628a143b160d7976978cdbd298...</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>120183</td>
+      <td></td>
+      <td>45</td>
+      <td>45</td>
+      <td>2018-08-16</td>
+      <td>2018-08-18</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>660.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>660.00</td>
+      <td>Standard</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>120184</td>
+      <td></td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-08-17</td>
+      <td>2018-08-18</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>320.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>320.00</td>
+      <td>Standard</td>
+      <td>61778</td>
+      <td>364e80d6c0608116ff8808b339ff25dc2e3f8f2211ba38...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>120185</td>
+      <td></td>
+      <td>126</td>
+      <td>126</td>
+      <td>2018-08-16</td>
+      <td>2018-08-18</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>720.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>720.00</td>
+      <td>Standard</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>120186</td>
+      <td></td>
+      <td>65</td>
+      <td>65</td>
+      <td>2018-08-16</td>
+      <td>2018-08-18</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>480.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>480.00</td>
+      <td>Standard</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>120194</td>
+      <td></td>
+      <td>267</td>
+      <td>267</td>
+      <td>2018-08-10</td>
+      <td>2018-08-11</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>595.98</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>595.98</td>
+      <td>Standard</td>
+      <td>61378</td>
+      <td>f929533e542ff1302069567400b5ba584dc27dcbd63aae...</td>
+      <td>a90206b6164e13331d087034d9d9a963a9a4bcf8b2969f...</td>
+      <td>446e3878681ff4dac3067bf75b8ec3b7e5be2cf8a02c75...</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>120209</td>
+      <td></td>
+      <td>370</td>
+      <td>362</td>
+      <td>2018-08-03</td>
+      <td>2018-08-05</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>915.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>915.00</td>
+      <td>Standard</td>
+      <td>61105</td>
+      <td>8373dfd3bf2b44222dce774ee032a32b74a495f6ddd355...</td>
+      <td>37827cbb5aec4ed83d13193d766324efb93251cd44b28b...</td>
+      <td>27673c0003a9f52f8e73269e2e5799dd8d4c2b0bc0dc07...</td>
+      <td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>120232</td>
+      <td></td>
+      <td>321</td>
+      <td>321</td>
+      <td>2018-07-22</td>
+      <td>2018-07-30</td>
+      <td>2018-02-19</td>
+      <td>2018-02-19 17:44:00</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>3579.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3579.40</td>
+      <td>Standard</td>
+      <td>61807</td>
+      <td>cdd642820a12bb4a8f2407ed1d02b67435991afef52d9c...</td>
+      <td></td>
+      <td>5aeffc70468d19eba135a79c74024c206abe83c29fc6f0...</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="preprocess-the-data" class="cell markdown">
+<h1>Preprocess the data</h1>
+<ul>
+<li>Identify users by client_id, name hash, phone hash, email hash.</li>
+<li>Fix date_to - originally it points to the last full day of stay, not the departure date.</li>
+<li>Add length of stay.</li>
+<li>Add book to arrival.</li>
+<li>Add number of rooms (important for group reservations).</li>
+<li>Add indicator for stays encompasing a weekend.</li>
+<li>Add night price.</li>
+<li>Fix book to arrival to be not smaller than 0.</li>
+<li>Filter out companies as recommendations for such clients should work differently.</li>
+<li>Aggregate group reservations into single interactions.</li>
+</ul>
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> In the file data_preprocessing/data_preprocessing_toolkit write code for the following methods which work on the DataFrame with hotel data:</p>
+<ul>
+<li>add_length_of_stay - Adds length_of_stay column which is the difference between date_from and date_to (in days), i.e. the number of nights the customer stayed at the hotel.</li>
+<li>add_book_to_arrival - Adds book_to_arrival column which is the difference between date_from and booking_date (in days).</li>
+<li>add_weekend_stay - Adds weekend_stay column with 'True'/'False' strings indicating if the interval date_from to date_to contains any weekend days (defined as Friday and Saturday).</li>
+<li>add_night_price - Adds night_price column with the average price per one night per room - calculated as accomodation_price divided by length_of_stay and by n_rooms (there can be many rooms in group reservations - 'n_rooms' column).</li>
+<li>sum_npeople - Sums n_people, n_children_1, n_children_2, n_children_3 and sets the result to the n_people column.</li>
+<li>filter_out_company_clients - Filters out company clients is_company=0.</li>
+<li>filter_out_long_stays - Leaves only stays with length_of_stay less or equal to 21.</li>
+<li>filter_out_low_prices - Leaves only stays with accommodation price bigger than 50. Smaller prices are considered not reliable and likely a mistake of the hotel staff.</li>
+<li>aggregate_group_reservations - Aggregates every group reservation into one reservation with aggregated data (for self.sum_columns a sum is taken, for self.mean_columns a mean, for self.mode_columns a mode, for self.first_columns the first value). This one is the most challenging - see instructions in the py file (remember that with the %load_ext autoreload %autoreload 2 options in the first cell of this notebook you don't have to restart the notebook - the changes in the py file will be immediately used in the notebook whenever a method from the py file is invoked).</li>
+</ul>
+<p>You have to pass all assertions in the below cell.</p>
+</section>
+<div class="cell code" data-execution_count="41" data-scrolled="false">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> original_data.copy()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>dataset_specification <span class="op">=</span> DatasetSpecification()</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>dp_toolkit <span class="op">=</span> DataPreprocessingToolkit()</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>id_column_names <span class="op">=</span> dataset_specification.get_id_columns()</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>people_identifier <span class="op">=</span> PeopleIdentifier()</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> people_identifier.add_pid(preprocessed_data, id_column_names, <span class="st">&quot;user_id&quot;</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.filter_out_company_clients(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.filter_out_low_prices(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.fix_date_to(preprocessed_data)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.add_length_of_stay(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.filter_out_long_stays(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.add_book_to_arrival(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.add_weekend_stay(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.add_nrooms(preprocessed_data)</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.sum_npeople(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.clip_book_to_arrival(preprocessed_data)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.aggregate_group_reservations(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.add_night_price(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> preprocessed_data.reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(preprocessed_data.loc[preprocessed_data[<span class="st">&quot;is_company&quot;</span>] <span class="op">==</span> <span class="dv">1</span>]) <span class="op">==</span> <span class="dv">0</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(preprocessed_data.loc[preprocessed_data[<span class="st">&quot;length_of_stay&quot;</span>] <span class="op">&gt;</span> <span class="dv">21</span>]) <span class="op">==</span> <span class="dv">0</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> <span class="bu">len</span>(preprocessed_data.loc[preprocessed_data[<span class="st">&quot;accommodation_price&quot;</span>] <span class="op">&lt;=</span> <span class="dv">50</span>]) <span class="op">==</span> <span class="dv">0</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">1</span>][<span class="st">&#39;length_of_stay&#39;</span>] <span class="op">==</span> <span class="dv">3</span></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2</span>][<span class="st">&#39;length_of_stay&#39;</span>] <span class="op">==</span> <span class="dv">2</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">3</span>][<span class="st">&#39;length_of_stay&#39;</span>] <span class="op">==</span> <span class="dv">7</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2150</span>][<span class="st">&#39;book_to_arrival&#39;</span>] <span class="op">==</span> <span class="dv">11</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2151</span>][<span class="st">&#39;book_to_arrival&#39;</span>] <span class="op">==</span> <span class="dv">28</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2152</span>][<span class="st">&#39;book_to_arrival&#39;</span>] <span class="op">==</span> <span class="dv">12</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2150</span>][<span class="st">&#39;weekend_stay&#39;</span>] <span class="op">==</span> <span class="st">&#39;False&#39;</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2151</span>][<span class="st">&#39;weekend_stay&#39;</span>] <span class="op">==</span> <span class="st">&#39;True&#39;</span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2152</span>][<span class="st">&#39;weekend_stay&#39;</span>] <span class="op">==</span> <span class="st">&#39;False&#39;</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">3650</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">2</span></span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">3651</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">4</span></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">3652</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">1</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">0</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">330.76</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">1</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">231.13</span></span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">183.40</span></span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a><span class="co"># Assertions for group reservations</span></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15258</span>][<span class="st">&#39;rate_plan&#39;</span>] <span class="op">==</span> <span class="st">&#39;Nonref&#39;</span></span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15259</span>][<span class="st">&#39;rate_plan&#39;</span>] <span class="op">==</span> <span class="st">&#39;Standard&#39;</span></span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15260</span>][<span class="st">&#39;rate_plan&#39;</span>] <span class="op">==</span> <span class="st">&#39;Standard&#39;</span></span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15258</span>][<span class="st">&#39;accommodation_price&#39;</span>] <span class="op">==</span> <span class="fl">1397.06</span></span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15261</span>][<span class="st">&#39;accommodation_price&#39;</span>] <span class="op">==</span> <span class="fl">2953.10</span></span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15264</span>][<span class="st">&#39;accommodation_price&#39;</span>] <span class="op">==</span> <span class="fl">1738.80</span></span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15258</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">6</span></span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15259</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">7</span></span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15260</span>][<span class="st">&#39;n_people&#39;</span>] <span class="op">==</span> <span class="dv">11</span></span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15265</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">206.67</span></span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15266</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">138.92</span></span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15267</span>][<span class="st">&#39;night_price&#39;</span>] <span class="op">==</span> <span class="fl">119.07</span></span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15261</span>][<span class="st">&#39;room_group_id&#39;</span>] <span class="op">==</span> <span class="dv">483</span></span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15266</span>][<span class="st">&#39;room_group_id&#39;</span>] <span class="op">==</span> <span class="dv">460</span></span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">15267</span>][<span class="st">&#39;room_group_id&#39;</span>] <span class="op">==</span> <span class="dv">463</span></span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>display(preprocessed_data.head(<span class="dv">15</span>))</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>n_people</th>
+      <th>n_children_1</th>
+      <th>n_children_2</th>
+      <th>n_children_3</th>
+      <th>accommodation_price</th>
+      <th>meal_price</th>
+      <th>service_price</th>
+      <th>paid</th>
+      <th>n_rooms</th>
+      <th>discount</th>
+      <th>room_id</th>
+      <th>room_group_id</th>
+      <th>date_from</th>
+      <th>date_to</th>
+      <th>booking_date</th>
+      <th>rate_plan</th>
+      <th>length_of_stay</th>
+      <th>book_to_arrival</th>
+      <th>weekend_stay</th>
+      <th>user_id</th>
+      <th>client_id</th>
+      <th>client_name</th>
+      <th>email</th>
+      <th>phone</th>
+      <th>is_company</th>
+      <th>group_id</th>
+      <th>night_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>992.29</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>118</td>
+      <td>118</td>
+      <td>2018-02-10</td>
+      <td>2018-02-13</td>
+      <td>2017-08-17</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>177</td>
+      <td>True</td>
+      <td>1</td>
+      <td>54117</td>
+      <td>ca83ddae9b7d15212b5391c815a689b8acfd8ef31d0d80...</td>
+      <td></td>
+      <td>318faec979ecaf8adaee0c8e5d7531a67f309b7247d30b...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>330.76</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>693.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>693.40</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>270</td>
+      <td>270</td>
+      <td>2018-02-28</td>
+      <td>2018-03-03</td>
+      <td>2017-08-17</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>195</td>
+      <td>True</td>
+      <td>2</td>
+      <td>54118</td>
+      <td>4db36724fc28085e053a3003dce55368ee207cce37d355...</td>
+      <td>f9c0564c66d6a830c4964a30ac261038dd7cf762b0641c...</td>
+      <td>cb550ba6d303bf230379073bcbdd55c37229eab3f173dc...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>231.13</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>366.80</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>294</td>
+      <td>294</td>
+      <td>2018-02-14</td>
+      <td>2018-02-16</td>
+      <td>2017-08-29</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>169</td>
+      <td>False</td>
+      <td>3</td>
+      <td>54790</td>
+      <td>e41ecdb28a96d0b3e294aea6e854d8dc39a1d61bb3dfe4...</td>
+      <td>f6a8c77530865b7e437eb746c3564c4cbdc522c10d35f6...</td>
+      <td>1c56315c10c9d8153ca7820648900befbd9109fb6cfb81...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>183.40</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1064.60</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>183</td>
+      <td>183</td>
+      <td>2018-02-03</td>
+      <td>2018-02-10</td>
+      <td>2017-09-04</td>
+      <td>Standard</td>
+      <td>7</td>
+      <td>152</td>
+      <td>True</td>
+      <td>4</td>
+      <td>55177</td>
+      <td>5380adccf08ea3000791aad3ccc478e3b6a8de440910aa...</td>
+      <td>6d08a7230580a09f1fde268bb7c1a5d74a55bdcc9183f8...</td>
+      <td>3aff5ce689580e51de899de8ec75e8a8eaa470e4e99df4...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>152.09</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>713.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-01-29</td>
+      <td>2018-02-03</td>
+      <td>2017-09-07</td>
+      <td>Standard</td>
+      <td>5</td>
+      <td>144</td>
+      <td>True</td>
+      <td>5</td>
+      <td>55412</td>
+      <td>4aebfe125cf6c059588792b9fb871afe282a8806299dfe...</td>
+      <td>0d6aafda88cc3d5844da8c60ca9d1b6682f1ce1a4dfe12...</td>
+      <td>ea16c664798581a9d93a3128d772b8b89e05743edbbfae...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>142.60</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>800.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>800.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>111</td>
+      <td>111</td>
+      <td>2018-03-28</td>
+      <td>2018-04-01</td>
+      <td>2017-09-11</td>
+      <td>Standard</td>
+      <td>4</td>
+      <td>198</td>
+      <td>True</td>
+      <td>6</td>
+      <td>55560</td>
+      <td>1f4b60816f6efcb45dfa67da7a6adab42d4a05b90a9278...</td>
+      <td>6163ca5013b2bc940219a59d0e30ec401ecd01bb498e03...</td>
+      <td>516b31d7892e1b5f4b6078ea0fc4c63a06bb9ceceb885d...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>200.00</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>402.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>402.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>162</td>
+      <td>162</td>
+      <td>2018-11-16</td>
+      <td>2018-11-18</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>270</td>
+      <td>True</td>
+      <td>7</td>
+      <td>63419</td>
+      <td>d47bcb623e5031df97cd9faf472e28d9fe40f1386bbd92...</td>
+      <td>5213ac7a6db98631330ac74a241ffdf840e1857481a0b5...</td>
+      <td>6416a3bc7ea31b09ae63628a143b160d7976978cdbd298...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>201.00</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>660.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>660.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>45</td>
+      <td>45</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>220.00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>320.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>320.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-08-17</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>179</td>
+      <td>True</td>
+      <td>9</td>
+      <td>61778</td>
+      <td>364e80d6c0608116ff8808b339ff25dc2e3f8f2211ba38...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>160.00</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>720.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>720.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>126</td>
+      <td>126</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>240.00</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>480.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>480.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>65</td>
+      <td>65</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>160.00</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>595.98</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>595.98</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>267</td>
+      <td>267</td>
+      <td>2018-08-10</td>
+      <td>2018-08-12</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>172</td>
+      <td>True</td>
+      <td>10</td>
+      <td>61378</td>
+      <td>f929533e542ff1302069567400b5ba584dc27dcbd63aae...</td>
+      <td>a90206b6164e13331d087034d9d9a963a9a4bcf8b2969f...</td>
+      <td>446e3878681ff4dac3067bf75b8ec3b7e5be2cf8a02c75...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>297.99</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>915.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>915.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>370</td>
+      <td>362</td>
+      <td>2018-08-03</td>
+      <td>2018-08-06</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>165</td>
+      <td>True</td>
+      <td>11</td>
+      <td>61105</td>
+      <td>8373dfd3bf2b44222dce774ee032a32b74a495f6ddd355...</td>
+      <td>37827cbb5aec4ed83d13193d766324efb93251cd44b28b...</td>
+      <td>27673c0003a9f52f8e73269e2e5799dd8d4c2b0bc0dc07...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>305.00</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3579.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3579.40</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>321</td>
+      <td>321</td>
+      <td>2018-07-22</td>
+      <td>2018-07-31</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>9</td>
+      <td>153</td>
+      <td>True</td>
+      <td>12</td>
+      <td>61807</td>
+      <td>cdd642820a12bb4a8f2407ed1d02b67435991afef52d9c...</td>
+      <td></td>
+      <td>5aeffc70468d19eba135a79c74024c206abe83c29fc6f0...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>397.71</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>640.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>640.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>131</td>
+      <td>131</td>
+      <td>2018-07-07</td>
+      <td>2018-07-09</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>138</td>
+      <td>True</td>
+      <td>15</td>
+      <td>60668</td>
+      <td>37a1b20c8796e967f521788e5f6dc03fe769784dcc4e9b...</td>
+      <td>a9ba8f12a4509f4c598578fa743236beda2b791c938954...</td>
+      <td>7ec6cc25066b8b7008b78d25027a2159d2116522611223...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>320.00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="bucket-important-features-to-reduce-the-offer-space-size" class="cell markdown">
+<h1>Bucket important features to reduce the offer space size</h1>
+<p>Without this step every pair (user_id, item_id) would have at most a single interaction. The base item space has around <span class="math inline">2<sup>25</sup> ∼ 3.3mln</span> elements. Therefore, values for selected features are aggregated into buckets:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>column_values_dict <span class="op">=</span> {</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;term&#39;</span>: [<span class="st">&#39;WinterVacation&#39;</span>, <span class="st">&#39;Easter&#39;</span>, <span class="st">&#39;OffSeason&#39;</span>, <span class="st">&#39;HighSeason&#39;</span>, <span class="st">&#39;LowSeason&#39;</span>, <span class="st">&#39;MayLongWeekend&#39;</span>, <span class="st">&#39;NewYear&#39;</span>, <span class="st">&#39;Christmas&#39;</span>],</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;length_of_stay_bucket&#39;</span>: [<span class="st">&#39;[0-1]&#39;</span>, <span class="st">&#39;[2-3]&#39;</span>, <span class="st">&#39;[4-7]&#39;</span>, <span class="st">&#39;[8-inf]&#39;</span>],</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;rate_plan&#39;</span>: [<span class="st">&#39;Standard&#39;</span>, <span class="st">&#39;Nonref&#39;</span>],</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;room_segment&#39;</span>: [<span class="st">&#39;[0-160]&#39;</span>, <span class="st">&#39;[160-260]&#39;</span>, <span class="st">&#39;[260-360]&#39;</span>, <span class="st">&#39;[360-500]&#39;</span>, <span class="st">&#39;[500-900]&#39;</span>],</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;n_people_bucket&#39;</span>: [<span class="st">&#39;[1-1]&#39;</span>, <span class="st">&#39;[2-2]&#39;</span>, <span class="st">&#39;[3-4]&#39;</span>, <span class="st">&#39;[5-inf]&#39;</span>],</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;weekend_stay&#39;</span>: [<span class="st">&#39;True&#39;</span>, <span class="st">&#39;False&#39;</span>]</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p>Explanation:</p>
+<ul>
+<li>term - the term of the arrival date,</li>
+<li>length_of_stay_bucket - aggregated length of stay,</li>
+<li>rate_plan - rate plan which distinguishes if a given booking was refundable or nonrefundable (in reality rate plans are much more complex, they define prices for all rooms for every date, they include features like free breakfast, wine in the room etc.),</li>
+<li>room_segment - for every room its average price is calculated, then every room assigned to an appropriate price range, which is a proxy for room quality,</li>
+<li>n_people_bucket - aggregated number of people in a reservation,</li>
+<li>weekend_stay - indicates if the stay encompassed a weekend.</li>
+</ul>
+<p>The buckets are chosen based on expert knowledge of people working in the hotel industry for many years. Alternatively, clustering techniques could be used, but on a relatively small dataset expert methods are typically better.</p>
+<p>The above aggregations reduce the number of possible items to <span class="math inline">8 * 4 * 2 * 5 * 4 * 2 = 2560</span>.</p>
+<h3 id="the-recommenders-will-be-trained-and-evaluated-on-such-aggregated-data-to-get-a-proper-offer-for-a-user-one-would-have-to-decode-those-buckets-into-specific-values-but-this-is-a-much-easier-task-and-can-be-achieved-based-on-simple-rules">The recommenders will be trained and evaluated on such aggregated data. To get a proper offer for a user one would have to decode those buckets into specific values, but this is a much easier task and can be achieved based on simple rules.</h3>
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> In the file data_preprocessing/data_preprocessing_toolkit write code for the map_night_price_to_room_segment_buckets method. You must calculate the average of night prices for every <strong>room_group_id</strong> and map those prices to buckets (you can apply the map_value_to_bucket method which is available in the data_preprocessing_toolkit, the buckets are available under self.room_segment_buckets). The new column should be named 'room_segment'. You have to pass all assertions.</p>
+</section>
+<div class="cell code" data-execution_count="42" data-scrolled="false">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.map_dates_to_terms(preprocessed_data)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.map_lengths_of_stay_to_nights_buckets(preprocessed_data)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.map_night_prices_to_room_segment_buckets(preprocessed_data)  <span class="co"># Code this method</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.map_npeople_to_npeople_buckets(preprocessed_data)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">4</span>][<span class="st">&#39;room_segment&#39;</span>] <span class="op">==</span> <span class="st">&#39;[0-160]&#39;</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">1</span>][<span class="st">&#39;room_segment&#39;</span>] <span class="op">==</span> <span class="st">&#39;[160-260]&#39;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">0</span>][<span class="st">&#39;room_segment&#39;</span>] <span class="op">==</span> <span class="st">&#39;[260-360]&#39;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> preprocessed_data.iloc[<span class="dv">2820</span>][<span class="st">&#39;room_segment&#39;</span>] <span class="op">==</span> <span class="st">&#39;[360-500]&#39;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>preprocessed_data <span class="op">=</span> dp_toolkit.map_item_to_item_id(preprocessed_data)</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>preprocessed_data.to_csv(os.path.join(data_path, <span class="st">&quot;hotel_data_preprocessed.csv&quot;</span>))</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>display(preprocessed_data.head(<span class="dv">15</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>n_people</th>
+      <th>n_children_1</th>
+      <th>n_children_2</th>
+      <th>n_children_3</th>
+      <th>accommodation_price</th>
+      <th>meal_price</th>
+      <th>service_price</th>
+      <th>paid</th>
+      <th>n_rooms</th>
+      <th>discount</th>
+      <th>room_id</th>
+      <th>room_group_id</th>
+      <th>date_from</th>
+      <th>date_to</th>
+      <th>booking_date</th>
+      <th>rate_plan</th>
+      <th>length_of_stay</th>
+      <th>book_to_arrival</th>
+      <th>weekend_stay</th>
+      <th>user_id</th>
+      <th>client_id</th>
+      <th>client_name</th>
+      <th>email</th>
+      <th>phone</th>
+      <th>is_company</th>
+      <th>group_id</th>
+      <th>night_price</th>
+      <th>term</th>
+      <th>length_of_stay_bucket</th>
+      <th>room_segment</th>
+      <th>n_people_bucket</th>
+      <th>item</th>
+      <th>item_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>992.29</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>118</td>
+      <td>118</td>
+      <td>2018-02-10</td>
+      <td>2018-02-13</td>
+      <td>2017-08-17</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>177</td>
+      <td>True</td>
+      <td>1</td>
+      <td>54117</td>
+      <td>ca83ddae9b7d15212b5391c815a689b8acfd8ef31d0d80...</td>
+      <td></td>
+      <td>318faec979ecaf8adaee0c8e5d7531a67f309b7247d30b...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>330.76</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>WinterVacation [2-3] Standard [260-360] [5-inf...</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>693.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>693.40</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>270</td>
+      <td>270</td>
+      <td>2018-02-28</td>
+      <td>2018-03-03</td>
+      <td>2017-08-17</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>195</td>
+      <td>True</td>
+      <td>2</td>
+      <td>54118</td>
+      <td>4db36724fc28085e053a3003dce55368ee207cce37d355...</td>
+      <td>f9c0564c66d6a830c4964a30ac261038dd7cf762b0641c...</td>
+      <td>cb550ba6d303bf230379073bcbdd55c37229eab3f173dc...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>231.13</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>WinterVacation [2-3] Standard [160-260] [3-4] ...</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>366.80</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>294</td>
+      <td>294</td>
+      <td>2018-02-14</td>
+      <td>2018-02-16</td>
+      <td>2017-08-29</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>169</td>
+      <td>False</td>
+      <td>3</td>
+      <td>54790</td>
+      <td>e41ecdb28a96d0b3e294aea6e854d8dc39a1d61bb3dfe4...</td>
+      <td>f6a8c77530865b7e437eb746c3564c4cbdc522c10d35f6...</td>
+      <td>1c56315c10c9d8153ca7820648900befbd9109fb6cfb81...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>183.40</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>WinterVacation [2-3] Standard [160-260] [2-2] ...</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1064.60</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>183</td>
+      <td>183</td>
+      <td>2018-02-03</td>
+      <td>2018-02-10</td>
+      <td>2017-09-04</td>
+      <td>Standard</td>
+      <td>7</td>
+      <td>152</td>
+      <td>True</td>
+      <td>4</td>
+      <td>55177</td>
+      <td>5380adccf08ea3000791aad3ccc478e3b6a8de440910aa...</td>
+      <td>6d08a7230580a09f1fde268bb7c1a5d74a55bdcc9183f8...</td>
+      <td>3aff5ce689580e51de899de8ec75e8a8eaa470e4e99df4...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>152.09</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>WinterVacation [4-7] Standard [160-260] [3-4] ...</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>713.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.00</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-01-29</td>
+      <td>2018-02-03</td>
+      <td>2017-09-07</td>
+      <td>Standard</td>
+      <td>5</td>
+      <td>144</td>
+      <td>True</td>
+      <td>5</td>
+      <td>55412</td>
+      <td>4aebfe125cf6c059588792b9fb871afe282a8806299dfe...</td>
+      <td>0d6aafda88cc3d5844da8c60ca9d1b6682f1ce1a4dfe12...</td>
+      <td>ea16c664798581a9d93a3128d772b8b89e05743edbbfae...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>142.60</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>[0-160]</td>
+      <td>[2-2]</td>
+      <td>WinterVacation [4-7] Standard [0-160] [2-2] True</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>800.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>800.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>111</td>
+      <td>111</td>
+      <td>2018-03-28</td>
+      <td>2018-04-01</td>
+      <td>2017-09-11</td>
+      <td>Standard</td>
+      <td>4</td>
+      <td>198</td>
+      <td>True</td>
+      <td>6</td>
+      <td>55560</td>
+      <td>1f4b60816f6efcb45dfa67da7a6adab42d4a05b90a9278...</td>
+      <td>6163ca5013b2bc940219a59d0e30ec401ecd01bb498e03...</td>
+      <td>516b31d7892e1b5f4b6078ea0fc4c63a06bb9ceceb885d...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>200.00</td>
+      <td>Easter</td>
+      <td>[4-7]</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>Easter [4-7] Standard [260-360] [5-inf] True</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>402.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>402.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>162</td>
+      <td>162</td>
+      <td>2018-11-16</td>
+      <td>2018-11-18</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>270</td>
+      <td>True</td>
+      <td>7</td>
+      <td>63419</td>
+      <td>d47bcb623e5031df97cd9faf472e28d9fe40f1386bbd92...</td>
+      <td>5213ac7a6db98631330ac74a241ffdf840e1857481a0b5...</td>
+      <td>6416a3bc7ea31b09ae63628a143b160d7976978cdbd298...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>201.00</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>OffSeason [2-3] Standard [260-360] [5-inf] True</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>660.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>660.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>45</td>
+      <td>45</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>220.00</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>HighSeason [2-3] Standard [160-260] [1-1] True</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>320.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>320.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>64</td>
+      <td>64</td>
+      <td>2018-08-17</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>179</td>
+      <td>True</td>
+      <td>9</td>
+      <td>61778</td>
+      <td>364e80d6c0608116ff8808b339ff25dc2e3f8f2211ba38...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>160.00</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[0-160]</td>
+      <td>[1-1]</td>
+      <td>HighSeason [2-3] Standard [0-160] [1-1] True</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>720.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>720.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>126</td>
+      <td>126</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>240.00</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>HighSeason [2-3] Standard [160-260] [1-1] True</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>480.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>480.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>65</td>
+      <td>65</td>
+      <td>2018-08-16</td>
+      <td>2018-08-19</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>178</td>
+      <td>True</td>
+      <td>8</td>
+      <td>61777</td>
+      <td>f02a11d6b6f5bd1bf1a003a655d1c28df9362c7f2f74be...</td>
+      <td></td>
+      <td></td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>160.00</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>HighSeason [2-3] Standard [160-260] [1-1] True</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>595.98</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>595.98</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>267</td>
+      <td>267</td>
+      <td>2018-08-10</td>
+      <td>2018-08-12</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>172</td>
+      <td>True</td>
+      <td>10</td>
+      <td>61378</td>
+      <td>f929533e542ff1302069567400b5ba584dc27dcbd63aae...</td>
+      <td>a90206b6164e13331d087034d9d9a963a9a4bcf8b2969f...</td>
+      <td>446e3878681ff4dac3067bf75b8ec3b7e5be2cf8a02c75...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>297.99</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>HighSeason [2-3] Standard [160-260] [3-4] True</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>915.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>915.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>370</td>
+      <td>362</td>
+      <td>2018-08-03</td>
+      <td>2018-08-06</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>3</td>
+      <td>165</td>
+      <td>True</td>
+      <td>11</td>
+      <td>61105</td>
+      <td>8373dfd3bf2b44222dce774ee032a32b74a495f6ddd355...</td>
+      <td>37827cbb5aec4ed83d13193d766324efb93251cd44b28b...</td>
+      <td>27673c0003a9f52f8e73269e2e5799dd8d4c2b0bc0dc07...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>305.00</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>HighSeason [2-3] Standard [160-260] [3-4] True</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3579.40</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>3579.40</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>321</td>
+      <td>321</td>
+      <td>2018-07-22</td>
+      <td>2018-07-31</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>9</td>
+      <td>153</td>
+      <td>True</td>
+      <td>12</td>
+      <td>61807</td>
+      <td>cdd642820a12bb4a8f2407ed1d02b67435991afef52d9c...</td>
+      <td></td>
+      <td>5aeffc70468d19eba135a79c74024c206abe83c29fc6f0...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>397.71</td>
+      <td>HighSeason</td>
+      <td>[8-inf]</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>HighSeason [8-inf] Standard [160-260] [3-4] True</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>640.00</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>640.00</td>
+      <td>1</td>
+      <td>0.0</td>
+      <td>131</td>
+      <td>131</td>
+      <td>2018-07-07</td>
+      <td>2018-07-09</td>
+      <td>2018-02-19</td>
+      <td>Standard</td>
+      <td>2</td>
+      <td>138</td>
+      <td>True</td>
+      <td>15</td>
+      <td>60668</td>
+      <td>37a1b20c8796e967f521788e5f6dc03fe769784dcc4e9b...</td>
+      <td>a9ba8f12a4509f4c598578fa743236beda2b791c938954...</td>
+      <td>7ec6cc25066b8b7008b78d25027a2159d2116522611223...</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>320.00</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>[160-260]</td>
+      <td>[5-inf]</td>
+      <td>LowSeason [2-3] Standard [160-260] [5-inf] True</td>
+      <td>11</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="base-statistics" class="cell markdown">
+<h1>Base statistics</h1>
+</section>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of users: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(<span class="bu">len</span>(preprocessed_data[<span class="st">&#39;user_id&#39;</span>].unique())))</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>()</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of items: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(<span class="bu">len</span>(preprocessed_data[<span class="st">&#39;item_id&#39;</span>].unique())))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>()</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of interactions: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(<span class="bu">len</span>(preprocessed_data)))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>()</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>n_user <span class="op">=</span> preprocessed_data.loc[:, [<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>]].groupby(<span class="st">&#39;item_id&#39;</span>).count().sort_values(by<span class="op">=</span><span class="st">&#39;user_id&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>n_user <span class="op">=</span> n_user.rename(columns<span class="op">=</span>{<span class="st">&#39;user_id&#39;</span>: <span class="st">&#39;n_users&#39;</span>})</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>display(n_user.head(<span class="dv">10</span>))</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>n_item <span class="op">=</span> preprocessed_data.loc[:, [<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>]].groupby(<span class="st">&#39;user_id&#39;</span>).count().sort_values(by<span class="op">=</span><span class="st">&#39;item_id&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>n_item <span class="op">=</span> n_item.rename(columns<span class="op">=</span>{<span class="st">&#39;item_id&#39;</span>: <span class="st">&#39;n_items&#39;</span>})</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>display(n_item.head(<span class="dv">10</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of users: 13798
+
+Number of items: 757
+
+Number of interactions: 15268
+
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>n_users</th>
+    </tr>
+    <tr>
+      <th>item_id</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>50</th>
+      <td>679</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>581</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>538</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>409</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>226</td>
+    </tr>
+    <tr>
+      <th>77</th>
+      <td>224</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>212</td>
+    </tr>
+    <tr>
+      <th>60</th>
+      <td>204</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>196</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>195</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>n_items</th>
+    </tr>
+    <tr>
+      <th>user_id</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>706</th>
+      <td>84</td>
+    </tr>
+    <tr>
+      <th>1736</th>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th>96</th>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>11401</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>3336</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>1287</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>1281</th>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>5207</th>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="prepare-the-dataset-for-recommenders" class="cell markdown">
+<h1>Prepare the dataset for recommenders</h1>
+<p>One could consider many features describing each interaction but from the business perspective term, length_of_stay_bucket, rate_plan, room_segment, n_people_bucket, weekend_stay are the most important.</p>
+</section>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>item_features <span class="op">=</span> [<span class="st">&#39;term&#39;</span>, <span class="st">&#39;length_of_stay_bucket&#39;</span>, <span class="st">&#39;rate_plan&#39;</span>, <span class="st">&#39;room_segment&#39;</span>, <span class="st">&#39;n_people_bucket&#39;</span>, <span class="st">&#39;weekend_stay&#39;</span>]</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>interactions_df <span class="op">=</span> preprocessed_data.loc[:, [<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>] <span class="op">+</span> item_features]</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>column_values_dict <span class="op">=</span> {</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;term&#39;</span>: [<span class="st">&#39;WinterVacation&#39;</span>, <span class="st">&#39;Easter&#39;</span>, <span class="st">&#39;OffSeason&#39;</span>, <span class="st">&#39;HighSeason&#39;</span>, <span class="st">&#39;LowSeason&#39;</span>, <span class="st">&#39;MayLongWeekend&#39;</span>, <span class="st">&#39;NewYear&#39;</span>, <span class="st">&#39;Christmas&#39;</span>],</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;length_of_stay_bucket&#39;</span>: [<span class="st">&#39;[0-1]&#39;</span>, <span class="st">&#39;[2-3]&#39;</span>, <span class="st">&#39;[4-7]&#39;</span>, <span class="st">&#39;[8-inf]&#39;</span>],</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;rate_plan&#39;</span>: [<span class="st">&#39;Standard&#39;</span>, <span class="st">&#39;Nonref&#39;</span>],</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;room_segment&#39;</span>: [<span class="st">&#39;[0-160]&#39;</span>, <span class="st">&#39;[160-260]&#39;</span>, <span class="st">&#39;[260-360]&#39;</span>, <span class="st">&#39;[360-500]&#39;</span>, <span class="st">&#39;[500-900]&#39;</span>],</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;n_people_bucket&#39;</span>: [<span class="st">&#39;[1-1]&#39;</span>, <span class="st">&#39;[2-2]&#39;</span>, <span class="st">&#39;[3-4]&#39;</span>, <span class="st">&#39;[5-inf]&#39;</span>],</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;weekend_stay&#39;</span>: [<span class="st">&#39;True&#39;</span>, <span class="st">&#39;False&#39;</span>]</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;term&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;term&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;term&#39;</span>])</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;length_of_stay_bucket&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;length_of_stay_bucket&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;length_of_stay_bucket&#39;</span>])</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;rate_plan&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;rate_plan&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;rate_plan&#39;</span>])</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;room_segment&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;room_segment&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;room_segment&#39;</span>])</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;n_people_bucket&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;n_people_bucket&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;n_people_bucket&#39;</span>])</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>interactions_df[<span class="st">&#39;weekend_stay&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;weekend_stay&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;weekend_stay&#39;</span>])</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>interactions_df.to_csv(os.path.join(data_path, <span class="st">&quot;hotel_data_interactions_df.csv&quot;</span>))</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>display(interactions_df.head(<span class="dv">15</span>))</span></code></pre></div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>item_id</th>
+      <th>term</th>
+      <th>length_of_stay_bucket</th>
+      <th>rate_plan</th>
+      <th>room_segment</th>
+      <th>n_people_bucket</th>
+      <th>weekend_stay</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>3</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>4</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[0-160]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>5</td>
+      <td>Easter</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>6</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>8</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[0-160]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>10</td>
+      <td>9</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>11</td>
+      <td>9</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>12</td>
+      <td>10</td>
+      <td>HighSeason</td>
+      <td>[8-inf]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>11</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,2199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4a8b3e32331d45ae90c673ac124e80f1</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="469">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>load_ext autoreload</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>autoreload <span class="dv">2</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Markdown, display, HTML</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> defaultdict, deque</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.nn <span class="im">as</span> nn</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> torch.optim <span class="im">as</span> optim</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> livelossplot <span class="im">import</span> PlotLosses</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Fix the dying kernel problem (only a problem in some installations - you can remove it, if it works without it)</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>os.environ[<span class="st">&#39;KMP_DUPLICATE_LIB_OK&#39;</span>] <span class="op">=</span> <span class="st">&#39;True&#39;</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+</code></pre>
+</div>
+</div>
+<section id="load-the-dataset-for-recommenders" class="cell markdown">
+<h1>Load the dataset for recommenders</h1>
+</section>
+<div class="cell code" data-execution_count="470">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>data_path <span class="op">=</span> os.path.join(<span class="st">&quot;data&quot;</span>, <span class="st">&quot;hotel_data&quot;</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>interactions_df <span class="op">=</span> pd.read_csv(os.path.join(data_path, <span class="st">&quot;hotel_data_interactions_df.csv&quot;</span>), index_col<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>base_item_features <span class="op">=</span> [<span class="st">&#39;term&#39;</span>, <span class="st">&#39;length_of_stay_bucket&#39;</span>, <span class="st">&#39;rate_plan&#39;</span>, <span class="st">&#39;room_segment&#39;</span>, <span class="st">&#39;n_people_bucket&#39;</span>, <span class="st">&#39;weekend_stay&#39;</span>]</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>column_values_dict <span class="op">=</span> {</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;term&#39;</span>: [<span class="st">&#39;WinterVacation&#39;</span>, <span class="st">&#39;Easter&#39;</span>, <span class="st">&#39;OffSeason&#39;</span>, <span class="st">&#39;HighSeason&#39;</span>, <span class="st">&#39;LowSeason&#39;</span>, <span class="st">&#39;MayLongWeekend&#39;</span>, <span class="st">&#39;NewYear&#39;</span>, <span class="st">&#39;Christmas&#39;</span>],</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;length_of_stay_bucket&#39;</span>: [<span class="st">&#39;[0-1]&#39;</span>, <span class="st">&#39;[2-3]&#39;</span>, <span class="st">&#39;[4-7]&#39;</span>, <span class="st">&#39;[8-inf]&#39;</span>],</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;rate_plan&#39;</span>: [<span class="st">&#39;Standard&#39;</span>, <span class="st">&#39;Nonref&#39;</span>],</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;room_segment&#39;</span>: [<span class="st">&#39;[0-160]&#39;</span>, <span class="st">&#39;[160-260]&#39;</span>, <span class="st">&#39;[260-360]&#39;</span>, <span class="st">&#39;[360-500]&#39;</span>, <span class="st">&#39;[500-900]&#39;</span>],</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;n_people_bucket&#39;</span>: [<span class="st">&#39;[1-1]&#39;</span>, <span class="st">&#39;[2-2]&#39;</span>, <span class="st">&#39;[3-4]&#39;</span>, <span class="st">&#39;[5-inf]&#39;</span>],</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;weekend_stay&#39;</span>: [<span class="st">&#39;True&#39;</span>, <span class="st">&#39;False&#39;</span>]</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;term&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;term&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;term&#39;</span>])</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;length_of_stay_bucket&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;length_of_stay_bucket&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;length_of_stay_bucket&#39;</span>])</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;rate_plan&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;rate_plan&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;rate_plan&#39;</span>])</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;room_segment&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;room_segment&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;room_segment&#39;</span>])</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;n_people_bucket&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;n_people_bucket&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;n_people_bucket&#39;</span>])</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;weekend_stay&#39;</span>] <span class="op">=</span> interactions_df[<span class="st">&#39;weekend_stay&#39;</span>].astype(<span class="st">&#39;str&#39;</span>)</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>interactions_df.loc[:, <span class="st">&#39;weekend_stay&#39;</span>] <span class="op">=</span> pd.Categorical(</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>    interactions_df[<span class="st">&#39;weekend_stay&#39;</span>], categories<span class="op">=</span>column_values_dict[<span class="st">&#39;weekend_stay&#39;</span>])</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>display(HTML(interactions_df.head(<span class="dv">15</span>).to_html()))</span></code></pre></div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>item_id</th>
+      <th>term</th>
+      <th>length_of_stay_bucket</th>
+      <th>rate_plan</th>
+      <th>room_segment</th>
+      <th>n_people_bucket</th>
+      <th>weekend_stay</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>2</td>
+      <td>WinterVacation</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>3</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>4</td>
+      <td>WinterVacation</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[0-160]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>6</td>
+      <td>5</td>
+      <td>Easter</td>
+      <td>[4-7]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>7</td>
+      <td>6</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[260-360]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>9</td>
+      <td>8</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[0-160]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>8</td>
+      <td>7</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>10</td>
+      <td>9</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>11</td>
+      <td>9</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>12</td>
+      <td>10</td>
+      <td>HighSeason</td>
+      <td>[8-inf]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>15</td>
+      <td>11</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[5-inf]</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<section id="optional-prepare-numerical-user-features" class="cell markdown">
+<h1>(Optional) Prepare numerical user features</h1>
+<p>The method below is left here for convenience if you want to experiment with content-based user features as an input for your neural network.</p>
+</section>
+<div class="cell code" data-execution_count="471">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> n_to_p(l):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    n <span class="op">=</span> <span class="bu">sum</span>(l)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [x <span class="op">/</span> n <span class="cf">for</span> x <span class="kw">in</span> l] <span class="cf">if</span> n <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">else</span> l</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_p(x, values):</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    counts <span class="op">=</span> [<span class="dv">0</span>]<span class="op">*</span><span class="bu">len</span>(values)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> v <span class="kw">in</span> x:</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>        counts[values.index(v)] <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n_to_p(counts)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prepare_users_df(interactions_df):</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    users_df <span class="op">=</span> interactions_df.loc[:, [<span class="st">&quot;user_id&quot;</span>]]</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    users_df <span class="op">=</span> users_df.groupby(<span class="st">&quot;user_id&quot;</span>).first().reset_index(drop<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    user_features <span class="op">=</span> []</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> column <span class="kw">in</span> base_item_features:</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>        column_values <span class="op">=</span> column_values_dict[column]</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> interactions_df.loc[:, [<span class="st">&#39;user_id&#39;</span>, column]]</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> df.groupby(<span class="st">&#39;user_id&#39;</span>).aggregate(<span class="kw">lambda</span> x: <span class="bu">list</span>(x)).reset_index(drop<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>        <span class="kw">def</span> calc_p(x):</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> calculate_p(x, column_values)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>        df.loc[:, column] <span class="op">=</span> df[column].<span class="bu">apply</span>(<span class="kw">lambda</span> x: calc_p(x))</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>        p_columns <span class="op">=</span> []</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(column_values)):</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a>            p_columns.append(<span class="st">&quot;user_&quot;</span> <span class="op">+</span> column <span class="op">+</span> <span class="st">&quot;_&quot;</span> <span class="op">+</span> column_values[i])</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>            df.loc[:, p_columns[i]] <span class="op">=</span> df[column].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x[i])</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>            user_features.append(p_columns[i])</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a>        users_df <span class="op">=</span> pd.merge(users_df, df.loc[:, [<span class="st">&#39;user_id&#39;</span>] <span class="op">+</span> p_columns], on<span class="op">=</span>[<span class="st">&quot;user_id&quot;</span>])</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> users_df, user_features</span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a>users_df, user_features <span class="op">=</span> prepare_users_df(interactions_df)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(user_features)</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a>display(HTML(users_df.loc[users_df[<span class="st">&#39;user_id&#39;</span>].isin([<span class="dv">706</span>, <span class="dv">1736</span>, <span class="dv">7779</span>, <span class="dv">96</span>, <span class="dv">1</span>, <span class="dv">50</span>, <span class="dv">115</span>])].head(<span class="dv">15</span>).to_html()))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;user_term_WinterVacation&#39;, &#39;user_term_Easter&#39;, &#39;user_term_OffSeason&#39;, &#39;user_term_HighSeason&#39;, &#39;user_term_LowSeason&#39;, &#39;user_term_MayLongWeekend&#39;, &#39;user_term_NewYear&#39;, &#39;user_term_Christmas&#39;, &#39;user_length_of_stay_bucket_[0-1]&#39;, &#39;user_length_of_stay_bucket_[2-3]&#39;, &#39;user_length_of_stay_bucket_[4-7]&#39;, &#39;user_length_of_stay_bucket_[8-inf]&#39;, &#39;user_rate_plan_Standard&#39;, &#39;user_rate_plan_Nonref&#39;, &#39;user_room_segment_[0-160]&#39;, &#39;user_room_segment_[160-260]&#39;, &#39;user_room_segment_[260-360]&#39;, &#39;user_room_segment_[360-500]&#39;, &#39;user_room_segment_[500-900]&#39;, &#39;user_n_people_bucket_[1-1]&#39;, &#39;user_n_people_bucket_[2-2]&#39;, &#39;user_n_people_bucket_[3-4]&#39;, &#39;user_n_people_bucket_[5-inf]&#39;, &#39;user_weekend_stay_True&#39;, &#39;user_weekend_stay_False&#39;]
+</code></pre>
+</div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>user_term_WinterVacation</th>
+      <th>user_term_Easter</th>
+      <th>user_term_OffSeason</th>
+      <th>user_term_HighSeason</th>
+      <th>user_term_LowSeason</th>
+      <th>user_term_MayLongWeekend</th>
+      <th>user_term_NewYear</th>
+      <th>user_term_Christmas</th>
+      <th>user_length_of_stay_bucket_[0-1]</th>
+      <th>user_length_of_stay_bucket_[2-3]</th>
+      <th>user_length_of_stay_bucket_[4-7]</th>
+      <th>user_length_of_stay_bucket_[8-inf]</th>
+      <th>user_rate_plan_Standard</th>
+      <th>user_rate_plan_Nonref</th>
+      <th>user_room_segment_[0-160]</th>
+      <th>user_room_segment_[160-260]</th>
+      <th>user_room_segment_[260-360]</th>
+      <th>user_room_segment_[360-500]</th>
+      <th>user_room_segment_[500-900]</th>
+      <th>user_n_people_bucket_[1-1]</th>
+      <th>user_n_people_bucket_[2-2]</th>
+      <th>user_n_people_bucket_[3-4]</th>
+      <th>user_n_people_bucket_[5-inf]</th>
+      <th>user_weekend_stay_True</th>
+      <th>user_weekend_stay_False</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0.090909</td>
+      <td>0.0</td>
+      <td>0.681818</td>
+      <td>0.090909</td>
+      <td>0.136364</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.590909</td>
+      <td>0.409091</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>0.863636</td>
+      <td>0.136364</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.727273</td>
+      <td>0.181818</td>
+      <td>0.090909</td>
+      <td>0.772727</td>
+      <td>0.227273</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>50</td>
+      <td>0.043478</td>
+      <td>0.0</td>
+      <td>0.434783</td>
+      <td>0.304348</td>
+      <td>0.217391</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.913043</td>
+      <td>0.086957</td>
+      <td>0.000000</td>
+      <td>0.260870</td>
+      <td>0.739130</td>
+      <td>0.000000</td>
+      <td>0.565217</td>
+      <td>0.434783</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.173913</td>
+      <td>0.521739</td>
+      <td>0.304348</td>
+      <td>0.782609</td>
+      <td>0.217391</td>
+    </tr>
+    <tr>
+      <th>84</th>
+      <td>96</td>
+      <td>0.090909</td>
+      <td>0.0</td>
+      <td>0.681818</td>
+      <td>0.136364</td>
+      <td>0.045455</td>
+      <td>0.045455</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.272727</td>
+      <td>0.636364</td>
+      <td>0.045455</td>
+      <td>0.045455</td>
+      <td>0.272727</td>
+      <td>0.727273</td>
+      <td>0.045455</td>
+      <td>0.863636</td>
+      <td>0.090909</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.045455</td>
+      <td>0.272727</td>
+      <td>0.590909</td>
+      <td>0.090909</td>
+      <td>0.727273</td>
+      <td>0.272727</td>
+    </tr>
+    <tr>
+      <th>102</th>
+      <td>115</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.500000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>706</td>
+      <td>0.095238</td>
+      <td>0.0</td>
+      <td>0.511905</td>
+      <td>0.190476</td>
+      <td>0.142857</td>
+      <td>0.047619</td>
+      <td>0.011905</td>
+      <td>0.0</td>
+      <td>0.297619</td>
+      <td>0.380952</td>
+      <td>0.238095</td>
+      <td>0.083333</td>
+      <td>0.976190</td>
+      <td>0.023810</td>
+      <td>0.035714</td>
+      <td>0.857143</td>
+      <td>0.107143</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.130952</td>
+      <td>0.154762</td>
+      <td>0.583333</td>
+      <td>0.130952</td>
+      <td>0.583333</td>
+      <td>0.416667</td>
+    </tr>
+    <tr>
+      <th>1383</th>
+      <td>1736</td>
+      <td>0.034483</td>
+      <td>0.0</td>
+      <td>0.482759</td>
+      <td>0.206897</td>
+      <td>0.275862</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.241379</td>
+      <td>0.551724</td>
+      <td>0.206897</td>
+      <td>0.000000</td>
+      <td>0.172414</td>
+      <td>0.827586</td>
+      <td>0.000000</td>
+      <td>0.931034</td>
+      <td>0.068966</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.379310</td>
+      <td>0.413793</td>
+      <td>0.206897</td>
+      <td>0.000000</td>
+      <td>0.448276</td>
+      <td>0.551724</td>
+    </tr>
+    <tr>
+      <th>7301</th>
+      <td>7779</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>0.500000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.250000</td>
+      <td>0.500000</td>
+      <td>0.250000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.750000</td>
+      <td>0.250000</td>
+      <td>0.750000</td>
+      <td>0.250000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<section id="optional-prepare-numerical-item-features" class="cell markdown">
+<h1>(Optional) Prepare numerical item features</h1>
+<p>The method below is left here for convenience if you want to experiment with content-based item features as an input for your neural network.</p>
+</section>
+<div class="cell code" data-execution_count="472">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> map_items_to_onehot(df):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    one_hot <span class="op">=</span> pd.get_dummies(df.loc[:, base_item_features])</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.drop(base_item_features, axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    df <span class="op">=</span> df.join(one_hot)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> df, <span class="bu">list</span>(one_hot.columns)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> prepare_items_df(interactions_df):</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    items_df <span class="op">=</span> interactions_df.loc[:, [<span class="st">&quot;item_id&quot;</span>] <span class="op">+</span> base_item_features].drop_duplicates()</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    items_df, item_features <span class="op">=</span> map_items_to_onehot(items_df)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> items_df, item_features</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>items_df, item_features <span class="op">=</span> prepare_items_df(interactions_df)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(item_features)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>display(HTML(items_df.loc[items_df[<span class="st">&#39;item_id&#39;</span>].isin([<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>])].head(<span class="dv">15</span>).to_html()))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;term_WinterVacation&#39;, &#39;term_Easter&#39;, &#39;term_OffSeason&#39;, &#39;term_HighSeason&#39;, &#39;term_LowSeason&#39;, &#39;term_MayLongWeekend&#39;, &#39;term_NewYear&#39;, &#39;term_Christmas&#39;, &#39;length_of_stay_bucket_[0-1]&#39;, &#39;length_of_stay_bucket_[2-3]&#39;, &#39;length_of_stay_bucket_[4-7]&#39;, &#39;length_of_stay_bucket_[8-inf]&#39;, &#39;rate_plan_Standard&#39;, &#39;rate_plan_Nonref&#39;, &#39;room_segment_[0-160]&#39;, &#39;room_segment_[160-260]&#39;, &#39;room_segment_[260-360]&#39;, &#39;room_segment_[360-500]&#39;, &#39;room_segment_[500-900]&#39;, &#39;n_people_bucket_[1-1]&#39;, &#39;n_people_bucket_[2-2]&#39;, &#39;n_people_bucket_[3-4]&#39;, &#39;n_people_bucket_[5-inf]&#39;, &#39;weekend_stay_True&#39;, &#39;weekend_stay_False&#39;]
+</code></pre>
+</div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>item_id</th>
+      <th>term_WinterVacation</th>
+      <th>term_Easter</th>
+      <th>term_OffSeason</th>
+      <th>term_HighSeason</th>
+      <th>term_LowSeason</th>
+      <th>term_MayLongWeekend</th>
+      <th>term_NewYear</th>
+      <th>term_Christmas</th>
+      <th>length_of_stay_bucket_[0-1]</th>
+      <th>length_of_stay_bucket_[2-3]</th>
+      <th>length_of_stay_bucket_[4-7]</th>
+      <th>length_of_stay_bucket_[8-inf]</th>
+      <th>rate_plan_Standard</th>
+      <th>rate_plan_Nonref</th>
+      <th>room_segment_[0-160]</th>
+      <th>room_segment_[160-260]</th>
+      <th>room_segment_[260-360]</th>
+      <th>room_segment_[360-500]</th>
+      <th>room_segment_[500-900]</th>
+      <th>n_people_bucket_[1-1]</th>
+      <th>n_people_bucket_[2-2]</th>
+      <th>n_people_bucket_[3-4]</th>
+      <th>n_people_bucket_[5-inf]</th>
+      <th>weekend_stay_True</th>
+      <th>weekend_stay_False</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>5</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>6</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<section id="neural-network-recommender" class="cell markdown">
+<h1>Neural network recommender</h1>
+</section>
+<div class="cell code" data-execution_count="473">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model1(nn.Module):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, seed, input_dim, hidden_dim1, hidden_dim2, hidden_dim3, output_dim <span class="op">=</span> <span class="dv">1</span>):</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(Model1, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.seed <span class="op">=</span> torch.manual_seed(seed)</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(input_dim, hidden_dim1)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hidden_dim1, hidden_dim2)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc3 <span class="op">=</span> nn.Linear(hidden_dim2, hidden_dim3)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.output_layer <span class="op">=</span> nn.Linear(hidden_dim3, output_dim)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.dropout <span class="op">=</span> nn.Dropout(<span class="fl">0.15</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc1(x))</span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc2(x))</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.dropout(x)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc3(x))</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.output_layer(x)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> nn.Sigmoid()(x)</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model2(nn.Module):</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, seed, input_dim, hidden_dim1, hidden_dim2, hidden_dim3, output_dim <span class="op">=</span> <span class="dv">1</span>):</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a>        <span class="bu">super</span>(Model2, <span class="va">self</span>).<span class="fu">__init__</span>()</span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.seed <span class="op">=</span> torch.manual_seed(seed)</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc1 <span class="op">=</span> nn.Linear(input_dim, hidden_dim1)</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc2 <span class="op">=</span> nn.Linear(hidden_dim1, hidden_dim2)</span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.fc3 <span class="op">=</span> nn.Linear(hidden_dim2, hidden_dim3)</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.output_layer <span class="op">=</span> nn.Linear(hidden_dim3, output_dim)</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> forward(<span class="va">self</span>, x):</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc1(x))</span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc2(x))</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> torch.relu(<span class="va">self</span>.fc3(x))</span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="va">self</span>.output_layer(x)</span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> torch.sigmoid(x)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> Code a recommender based on a neural network model. You are free to choose any network architecture you find appropriate. The network can use the interaction vectors for users and items, embeddings of users and items, as well as user and item features (you can use the features you developed in the first project).</p>
+<p>Remember to keep control over randomness - in the init method add the seed as a parameter and initialize the random seed generator with that seed (both for numpy and pytorch):</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="va">self</span>.seed <span class="op">=</span> seed</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="va">self</span>.rng <span class="op">=</span> np.random.RandomState(seed<span class="op">=</span>seed)</span></code></pre></div>
+<p>in the network model:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="va">self</span>.seed <span class="op">=</span> torch.manual_seed(seed)</span></code></pre></div>
+<p>You are encouraged to experiment with:</p>
+<ul>
+<li>the number of layers in the network, the number of neurons and different activation functions,</li>
+<li>different optimizers and their parameters,</li>
+<li>batch size and the number of epochs,</li>
+<li>embedding layers,</li>
+<li>content-based features of both users and items.</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="474">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> recommenders.recommender <span class="im">import</span> Recommender</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> NNRecommender(Recommender):</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Linear recommender class based on user and item features.</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_device(<span class="va">self</span>):</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> torch.cuda.is_available():</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>            device <span class="op">=</span> torch.device(<span class="st">&#39;cuda:0&#39;</span>)</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>            device <span class="op">=</span> torch.device(<span class="st">&#39;cpu&#39;</span>) <span class="co"># don&#39;t have GPU </span></span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> device</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, seed<span class="op">=</span><span class="dv">6789</span>, n_neg_per_pos<span class="op">=</span><span class="dv">2</span>, n_epochs <span class="op">=</span> <span class="dv">30</span>, embedding_dim <span class="op">=</span> <span class="dv">4</span>, lr <span class="op">=</span> <span class="fl">0.001</span>, weight_decay<span class="op">=</span><span class="fl">0.0001</span>, hidden_dim1<span class="op">=</span><span class="dv">9</span>, hidden_dim2<span class="op">=</span><span class="dv">6</span>, hidden_dim3<span class="op">=</span><span class="dv">12</span>, batch_size <span class="op">=</span> <span class="dv">8000</span>):</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a><span class="co">        Initialize recommender params and variables.</span></span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a><span class="co">        &quot;&quot;&quot;</span></span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.model <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.n_neg_per_pos <span class="op">=</span> <span class="bu">int</span>(n_neg_per_pos)</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.recommender_df <span class="op">=</span> pd.DataFrame(columns<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>, <span class="st">&#39;score&#39;</span>])</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.users_df <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_features <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.seed <span class="op">=</span> seed</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.rng <span class="op">=</span> np.random.RandomState(seed<span class="op">=</span>seed)</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># You can add more arguments if needed</span></span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.n_epochs <span class="op">=</span> <span class="bu">int</span>(n_epochs)</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.embedding_dim <span class="op">=</span> embedding_dim</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.lr <span class="op">=</span> lr</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.weight_decay <span class="op">=</span> weight_decay</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.batch_size <span class="op">=</span> <span class="bu">int</span>(batch_size)</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.hidden_dim1 <span class="op">=</span> <span class="bu">int</span>(hidden_dim1)</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.hidden_dim2 <span class="op">=</span> <span class="bu">int</span>(hidden_dim2)</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.hidden_dim3 <span class="op">=</span> <span class="bu">int</span>(hidden_dim3)</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> fit(<span class="va">self</span>, interactions_df, users_df, items_df):</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a><span class="co">        Training of the recommender.</span></span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a><span class="co">        :param pd.DataFrame interactions_df: DataFrame with recorded interactions between users and items </span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a><span class="co">            defined by user_id, item_id and features of the interaction.</span></span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a><span class="co">        :param pd.DataFrame users_df: DataFrame with users and their features defined by user_id and the user feature columns.</span></span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a><span class="co">        :param pd.DataFrame items_df: DataFrame with items and their features defined by item_id and the item feature columns.</span></span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a><span class="co">        &quot;&quot;&quot;</span></span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a>        device <span class="op">=</span> <span class="va">self</span>.get_device()</span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.device <span class="op">=</span> device</span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>        interactions_df <span class="op">=</span> interactions_df.copy()</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a>        <span class="co"># PREPARE DATA FOR MODEL</span></span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 1. create dictionary which have old and new data index for item_id and user_id</span></span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>        u_item_ids <span class="op">=</span> interactions_df[<span class="st">&#39;item_id&#39;</span>].unique()</span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>        u_user_ids <span class="op">=</span> interactions_df[<span class="st">&#39;user_id&#39;</span>].unique()</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_id_mapping <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(u_user_ids, <span class="bu">list</span>(<span class="bu">range</span>(<span class="bu">len</span>(u_user_ids)))))</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_id_reverse_mapping <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(<span class="bu">list</span>(<span class="bu">range</span>(<span class="bu">len</span>(u_user_ids))), u_user_ids))</span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 2. change data ids based on mapping</span></span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a>        interactions_df[<span class="st">&#39;user_id&#39;</span>] <span class="op">=</span> interactions_df[<span class="st">&#39;user_id&#39;</span>].<span class="bu">map</span>(<span class="va">self</span>.user_id_mapping)</span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 3. prepare users and items features</span></span>
+<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a>        users_df, user_features <span class="op">=</span> prepare_users_df(interactions_df)</span>
+<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.users_df <span class="op">=</span> users_df</span>
+<span id="cb11-74"><a href="#cb11-74" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.user_features <span class="op">=</span> user_features</span>
+<span id="cb11-75"><a href="#cb11-75" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-76"><a href="#cb11-76" aria-hidden="true" tabindex="-1"></a>        items_df, item_features <span class="op">=</span> prepare_items_df(interactions_df)</span>
+<span id="cb11-77"><a href="#cb11-77" aria-hidden="true" tabindex="-1"></a>        items_df <span class="op">=</span> items_df.loc[:, [<span class="st">&#39;item_id&#39;</span>] <span class="op">+</span> item_features]</span>
+<span id="cb11-78"><a href="#cb11-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-79"><a href="#cb11-79" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 4. generate negative interactions</span></span>
+<span id="cb11-80"><a href="#cb11-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-81"><a href="#cb11-81" aria-hidden="true" tabindex="-1"></a>        n_users <span class="op">=</span> np.<span class="bu">max</span>(interactions_df[<span class="st">&#39;user_id&#39;</span>]) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb11-82"><a href="#cb11-82" aria-hidden="true" tabindex="-1"></a>        n_items <span class="op">=</span> np.<span class="bu">max</span>(interactions_df[<span class="st">&#39;item_id&#39;</span>]) <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb11-83"><a href="#cb11-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-84"><a href="#cb11-84" aria-hidden="true" tabindex="-1"></a>        r <span class="op">=</span> np.zeros(shape<span class="op">=</span>(n_users, n_items))</span>
+<span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> idx, interaction <span class="kw">in</span> interactions_df.iterrows():</span>
+<span id="cb11-86"><a href="#cb11-86" aria-hidden="true" tabindex="-1"></a>            r[<span class="bu">int</span>(interaction[<span class="st">&#39;user_id&#39;</span>])][<span class="bu">int</span>(interaction[<span class="st">&#39;item_id&#39;</span>])] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb11-87"><a href="#cb11-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-88"><a href="#cb11-88" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.r <span class="op">=</span> r</span>
+<span id="cb11-89"><a href="#cb11-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-90"><a href="#cb11-90" aria-hidden="true" tabindex="-1"></a>        interactions_df.loc[:, <span class="st">&#39;interacted&#39;</span>] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb11-91"><a href="#cb11-91" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-92"><a href="#cb11-92" aria-hidden="true" tabindex="-1"></a>        negative_interactions <span class="op">=</span> []</span>
+<span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-94"><a href="#cb11-94" aria-hidden="true" tabindex="-1"></a>        i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb11-95"><a href="#cb11-95" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> i <span class="op">&lt;</span> <span class="va">self</span>.n_neg_per_pos <span class="op">*</span> <span class="bu">len</span>(interactions_df):</span>
+<span id="cb11-96"><a href="#cb11-96" aria-hidden="true" tabindex="-1"></a>            sample_size <span class="op">=</span> <span class="dv">1000</span></span>
+<span id="cb11-97"><a href="#cb11-97" aria-hidden="true" tabindex="-1"></a>            user_ids <span class="op">=</span> <span class="va">self</span>.rng.choice(np.arange(n_users), size<span class="op">=</span>sample_size)</span>
+<span id="cb11-98"><a href="#cb11-98" aria-hidden="true" tabindex="-1"></a>            item_ids <span class="op">=</span> <span class="va">self</span>.rng.choice(np.arange(n_items), size<span class="op">=</span>sample_size)</span>
+<span id="cb11-99"><a href="#cb11-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-100"><a href="#cb11-100" aria-hidden="true" tabindex="-1"></a>            j <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb11-101"><a href="#cb11-101" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span> j <span class="op">&lt;</span> sample_size <span class="kw">and</span> i <span class="op">&lt;</span> <span class="va">self</span>.n_neg_per_pos <span class="op">*</span> <span class="bu">len</span>(interactions_df):</span>
+<span id="cb11-102"><a href="#cb11-102" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> r[user_ids[j]][item_ids[j]] <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb11-103"><a href="#cb11-103" aria-hidden="true" tabindex="-1"></a>                    negative_interactions.append([user_ids[j], item_ids[j], <span class="dv">0</span>])</span>
+<span id="cb11-104"><a href="#cb11-104" aria-hidden="true" tabindex="-1"></a>                    i <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb11-105"><a href="#cb11-105" aria-hidden="true" tabindex="-1"></a>                j <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb11-106"><a href="#cb11-106" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-107"><a href="#cb11-107" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 5. Add negative interactions to interactions_df</span></span>
+<span id="cb11-108"><a href="#cb11-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-109"><a href="#cb11-109" aria-hidden="true" tabindex="-1"></a>        interactions_df <span class="op">=</span> pd.concat(</span>
+<span id="cb11-110"><a href="#cb11-110" aria-hidden="true" tabindex="-1"></a>            [interactions_df, pd.DataFrame(negative_interactions, columns<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>, <span class="st">&#39;interacted&#39;</span>])])</span>
+<span id="cb11-111"><a href="#cb11-111" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-112"><a href="#cb11-112" aria-hidden="true" tabindex="-1"></a>        <span class="co"># 6. Merge user and item features to interactions_df</span></span>
+<span id="cb11-113"><a href="#cb11-113" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-114"><a href="#cb11-114" aria-hidden="true" tabindex="-1"></a>        interactions_df <span class="op">=</span> pd.merge(interactions_df, users_df, on<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>])</span>
+<span id="cb11-115"><a href="#cb11-115" aria-hidden="true" tabindex="-1"></a>        interactions_df <span class="op">=</span> pd.merge(interactions_df, items_df, on<span class="op">=</span>[<span class="st">&#39;item_id&#39;</span>])</span>
+<span id="cb11-116"><a href="#cb11-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-117"><a href="#cb11-117" aria-hidden="true" tabindex="-1"></a>        <span class="co"># PREPARE MODEL AND OPTIMIZER</span></span>
+<span id="cb11-118"><a href="#cb11-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-119"><a href="#cb11-119" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.input_dim <span class="op">=</span> <span class="bu">len</span>(user_features <span class="op">+</span> item_features)</span>
+<span id="cb11-120"><a href="#cb11-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-121"><a href="#cb11-121" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nn_model <span class="op">=</span> Model2(<span class="va">self</span>.seed, <span class="va">self</span>.input_dim, <span class="va">self</span>.hidden_dim1, <span class="va">self</span>.hidden_dim2, <span class="va">self</span>.hidden_dim3)</span>
+<span id="cb11-122"><a href="#cb11-122" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nn_model.train()</span>
+<span id="cb11-123"><a href="#cb11-123" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nn_model.to(device)</span>
+<span id="cb11-124"><a href="#cb11-124" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.optimizer <span class="op">=</span> optim.Adam(<span class="va">self</span>.nn_model.parameters(), lr<span class="op">=</span><span class="va">self</span>.lr, weight_decay<span class="op">=</span><span class="va">self</span>.weight_decay)</span>
+<span id="cb11-125"><a href="#cb11-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-126"><a href="#cb11-126" aria-hidden="true" tabindex="-1"></a>        <span class="co">#TRAIN MODEL WITH DATA</span></span>
+<span id="cb11-127"><a href="#cb11-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-128"><a href="#cb11-128" aria-hidden="true" tabindex="-1"></a>        interaction_ids <span class="op">=</span> <span class="va">self</span>.rng.permutation(<span class="bu">len</span>(interactions_df))</span>
+<span id="cb11-129"><a href="#cb11-129" aria-hidden="true" tabindex="-1"></a>        training_ids <span class="op">=</span> interaction_ids</span>
+<span id="cb11-130"><a href="#cb11-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-131"><a href="#cb11-131" aria-hidden="true" tabindex="-1"></a>        fn_loss <span class="op">=</span> nn.BCELoss()</span>
+<span id="cb11-132"><a href="#cb11-132" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-133"><a href="#cb11-133" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> epoch <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.n_epochs):</span>
+<span id="cb11-134"><a href="#cb11-134" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb11-135"><a href="#cb11-135" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.rng.shuffle(training_ids)</span>
+<span id="cb11-136"><a href="#cb11-136" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb11-137"><a href="#cb11-137" aria-hidden="true" tabindex="-1"></a>            batch_idx <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb11-138"><a href="#cb11-138" aria-hidden="true" tabindex="-1"></a>            n_batches <span class="op">=</span> <span class="bu">int</span>(np.ceil(<span class="bu">len</span>(training_ids) <span class="op">/</span> <span class="va">self</span>.batch_size))</span>
+<span id="cb11-139"><a href="#cb11-139" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb11-140"><a href="#cb11-140" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> batch_idx <span class="kw">in</span> <span class="bu">range</span>(n_batches):</span>
+<span id="cb11-141"><a href="#cb11-141" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb11-142"><a href="#cb11-142" aria-hidden="true" tabindex="-1"></a>                batch_ids <span class="op">=</span> training_ids[(batch_idx <span class="op">*</span> <span class="va">self</span>.batch_size):((batch_idx <span class="op">+</span> <span class="dv">1</span>) <span class="op">*</span> <span class="va">self</span>.batch_size)]</span>
+<span id="cb11-143"><a href="#cb11-143" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb11-144"><a href="#cb11-144" aria-hidden="true" tabindex="-1"></a>                batch <span class="op">=</span> interactions_df.loc[batch_ids]</span>
+<span id="cb11-145"><a href="#cb11-145" aria-hidden="true" tabindex="-1"></a>                in_df <span class="op">=</span> batch.loc[:, user_features <span class="op">+</span> item_features]</span>
+<span id="cb11-146"><a href="#cb11-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-147"><a href="#cb11-147" aria-hidden="true" tabindex="-1"></a>                <span class="co"># 1. Convert data to tensors</span></span>
+<span id="cb11-148"><a href="#cb11-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-149"><a href="#cb11-149" aria-hidden="true" tabindex="-1"></a>                in_data_tensor <span class="op">=</span> torch.from_numpy(in_df.values).<span class="bu">float</span>().to(device)</span>
+<span id="cb11-150"><a href="#cb11-150" aria-hidden="true" tabindex="-1"></a>                out_data_tensor <span class="op">=</span> torch.from_numpy(batch[<span class="st">&#39;interacted&#39;</span>].values).<span class="bu">float</span>().to(device)</span>
+<span id="cb11-151"><a href="#cb11-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-152"><a href="#cb11-152" aria-hidden="true" tabindex="-1"></a>                <span class="co"># 2. Model response</span></span>
+<span id="cb11-153"><a href="#cb11-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-154"><a href="#cb11-154" aria-hidden="true" tabindex="-1"></a>                model_response <span class="op">=</span> <span class="va">self</span>.nn_model(in_data_tensor).clip(<span class="fl">0.000001</span>, <span class="fl">0.999999</span>).flatten()</span>
+<span id="cb11-155"><a href="#cb11-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-156"><a href="#cb11-156" aria-hidden="true" tabindex="-1"></a>                <span class="co"># 3. Loss</span></span>
+<span id="cb11-157"><a href="#cb11-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-158"><a href="#cb11-158" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.optimizer.zero_grad()</span>
+<span id="cb11-159"><a href="#cb11-159" aria-hidden="true" tabindex="-1"></a>                <span class="co"># loss = -(out_data_tensor * model_response.log() + (1 - out_data_tensor) * (1 - model_response).log()).sum()</span></span>
+<span id="cb11-160"><a href="#cb11-160" aria-hidden="true" tabindex="-1"></a>                loss <span class="op">=</span> fn_loss(model_response, out_data_tensor)</span>
+<span id="cb11-161"><a href="#cb11-161" aria-hidden="true" tabindex="-1"></a>                </span>
+<span id="cb11-162"><a href="#cb11-162" aria-hidden="true" tabindex="-1"></a>                loss.backward()</span>
+<span id="cb11-163"><a href="#cb11-163" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.optimizer.step()</span>
+<span id="cb11-164"><a href="#cb11-164" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-165"><a href="#cb11-165" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> recommend(<span class="va">self</span>, users_df, items_df, n_recommendations<span class="op">=</span><span class="dv">1</span>):</span>
+<span id="cb11-166"><a href="#cb11-166" aria-hidden="true" tabindex="-1"></a>        <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb11-167"><a href="#cb11-167" aria-hidden="true" tabindex="-1"></a><span class="co">        Serving of recommendations. Scores items in items_df for each user in users_df and returns </span></span>
+<span id="cb11-168"><a href="#cb11-168" aria-hidden="true" tabindex="-1"></a><span class="co">        top n_recommendations for each user.</span></span>
+<span id="cb11-169"><a href="#cb11-169" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb11-170"><a href="#cb11-170" aria-hidden="true" tabindex="-1"></a><span class="co">        :param pd.DataFrame users_df: DataFrame with users and their features for which recommendations should be generated.</span></span>
+<span id="cb11-171"><a href="#cb11-171" aria-hidden="true" tabindex="-1"></a><span class="co">        :param pd.DataFrame items_df: DataFrame with items and their features which should be scored.</span></span>
+<span id="cb11-172"><a href="#cb11-172" aria-hidden="true" tabindex="-1"></a><span class="co">        :param int n_recommendations: Number of recommendations to be returned for each user.</span></span>
+<span id="cb11-173"><a href="#cb11-173" aria-hidden="true" tabindex="-1"></a><span class="co">        :return: DataFrame with user_id, item_id and score as columns returning n_recommendations top recommendations </span></span>
+<span id="cb11-174"><a href="#cb11-174" aria-hidden="true" tabindex="-1"></a><span class="co">            for each user.</span></span>
+<span id="cb11-175"><a href="#cb11-175" aria-hidden="true" tabindex="-1"></a><span class="co">        :rtype: pd.DataFrame</span></span>
+<span id="cb11-176"><a href="#cb11-176" aria-hidden="true" tabindex="-1"></a><span class="co">        &quot;&quot;&quot;</span></span>
+<span id="cb11-177"><a href="#cb11-177" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-178"><a href="#cb11-178" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Clean previous recommendations (iloc could be used alternatively)</span></span>
+<span id="cb11-179"><a href="#cb11-179" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.recommender_df <span class="op">=</span> <span class="va">self</span>.recommender_df[:<span class="dv">0</span>]</span>
+<span id="cb11-180"><a href="#cb11-180" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-181"><a href="#cb11-181" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Prepare users_df and items_df</span></span>
+<span id="cb11-182"><a href="#cb11-182" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-183"><a href="#cb11-183" aria-hidden="true" tabindex="-1"></a>        users_df <span class="op">=</span> users_df.loc[:, <span class="st">&#39;user_id&#39;</span>]</span>
+<span id="cb11-184"><a href="#cb11-184" aria-hidden="true" tabindex="-1"></a>        users_df <span class="op">=</span> pd.merge(users_df, <span class="va">self</span>.users_df, on<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>], how<span class="op">=</span><span class="st">&#39;left&#39;</span>).fillna(<span class="dv">0</span>)</span>
+<span id="cb11-185"><a href="#cb11-185" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-186"><a href="#cb11-186" aria-hidden="true" tabindex="-1"></a>        items_df, item_features <span class="op">=</span> prepare_items_df(items_df)</span>
+<span id="cb11-187"><a href="#cb11-187" aria-hidden="true" tabindex="-1"></a>        items_df <span class="op">=</span> items_df.loc[:, [<span class="st">&#39;item_id&#39;</span>] <span class="op">+</span> item_features]</span>
+<span id="cb11-188"><a href="#cb11-188" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-189"><a href="#cb11-189" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Score the items</span></span>
+<span id="cb11-190"><a href="#cb11-190" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb11-191"><a href="#cb11-191" aria-hidden="true" tabindex="-1"></a>        recommendations <span class="op">=</span> pd.DataFrame(columns<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>, <span class="st">&#39;item_id&#39;</span>, <span class="st">&#39;score&#39;</span>])</span>
+<span id="cb11-192"><a href="#cb11-192" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb11-193"><a href="#cb11-193" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> ix, user <span class="kw">in</span> users_df.iterrows():</span>
+<span id="cb11-194"><a href="#cb11-194" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-195"><a href="#cb11-195" aria-hidden="true" tabindex="-1"></a>            user_structure <span class="op">=</span> users_df[users_df[<span class="st">&#39;user_id&#39;</span>] <span class="op">==</span> user[<span class="st">&#39;user_id&#39;</span>]].loc[:, [<span class="st">&#39;user_id&#39;</span>] <span class="op">+</span> user_features]</span>
+<span id="cb11-196"><a href="#cb11-196" aria-hidden="true" tabindex="-1"></a>            carthesian_raw <span class="op">=</span> pd.merge(user_structure, items_df, how<span class="op">=</span><span class="st">&quot;cross&quot;</span>)</span>
+<span id="cb11-197"><a href="#cb11-197" aria-hidden="true" tabindex="-1"></a>            carthesian <span class="op">=</span> carthesian_raw.loc[:, user_features <span class="op">+</span> item_features].fillna(<span class="dv">0</span>)</span>
+<span id="cb11-198"><a href="#cb11-198" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-199"><a href="#cb11-199" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Convert data to tensors</span></span>
+<span id="cb11-200"><a href="#cb11-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-201"><a href="#cb11-201" aria-hidden="true" tabindex="-1"></a>            data_tensor <span class="op">=</span> torch.from_numpy(carthesian.values).<span class="bu">float</span>().to(<span class="va">self</span>.device)</span>
+<span id="cb11-202"><a href="#cb11-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-203"><a href="#cb11-203" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Model response (scores)</span></span>
+<span id="cb11-204"><a href="#cb11-204" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-205"><a href="#cb11-205" aria-hidden="true" tabindex="-1"></a>            model_response <span class="op">=</span> <span class="va">self</span>.nn_model(data_tensor).flatten().tolist()</span>
+<span id="cb11-206"><a href="#cb11-206" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-207"><a href="#cb11-207" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Sort 10 best results</span></span>
+<span id="cb11-208"><a href="#cb11-208" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-209"><a href="#cb11-209" aria-hidden="true" tabindex="-1"></a>            chosen_ids <span class="op">=</span> np.argsort(model_response)[::<span class="op">-</span><span class="dv">1</span>][: n_recommendations]</span>
+<span id="cb11-210"><a href="#cb11-210" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb11-211"><a href="#cb11-211" aria-hidden="true" tabindex="-1"></a>            recommendations <span class="op">=</span> []</span>
+<span id="cb11-212"><a href="#cb11-212" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> item_id <span class="kw">in</span> chosen_ids:</span>
+<span id="cb11-213"><a href="#cb11-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-214"><a href="#cb11-214" aria-hidden="true" tabindex="-1"></a>                recommendations.append(</span>
+<span id="cb11-215"><a href="#cb11-215" aria-hidden="true" tabindex="-1"></a>                    {</span>
+<span id="cb11-216"><a href="#cb11-216" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;user_id&#39;</span>: user[<span class="st">&#39;user_id&#39;</span>],</span>
+<span id="cb11-217"><a href="#cb11-217" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;item_id&#39;</span>: item_id,</span>
+<span id="cb11-218"><a href="#cb11-218" aria-hidden="true" tabindex="-1"></a>                        <span class="st">&#39;score&#39;</span>: model_response[item_id]</span>
+<span id="cb11-219"><a href="#cb11-219" aria-hidden="true" tabindex="-1"></a>                    }</span>
+<span id="cb11-220"><a href="#cb11-220" aria-hidden="true" tabindex="-1"></a>                )</span>
+<span id="cb11-221"><a href="#cb11-221" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb11-222"><a href="#cb11-222" aria-hidden="true" tabindex="-1"></a>            user_recommendations <span class="op">=</span> pd.DataFrame(recommendations)</span>
+<span id="cb11-223"><a href="#cb11-223" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.recommender_df <span class="op">=</span> pd.concat([<span class="va">self</span>.recommender_df, user_recommendations])</span>
+<span id="cb11-224"><a href="#cb11-224" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-225"><a href="#cb11-225" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">self</span>.recommender_df</span></code></pre></div>
+</div>
+<section id="quick-test-of-the-recommender" class="cell markdown">
+<h1>Quick test of the recommender</h1>
+</section>
+<div class="cell code" data-execution_count="475">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>items_df <span class="op">=</span> interactions_df.loc[:, [<span class="st">&#39;item_id&#39;</span>] <span class="op">+</span> base_item_features].drop_duplicates()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="476">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Fit method</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>nn_recommender <span class="op">=</span> NNRecommender()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>nn_recommender.fit(interactions_df, <span class="va">None</span>, <span class="va">None</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="477" data-scrolled="false">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Recommender method</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>recommendations <span class="op">=</span> nn_recommender.recommend(pd.DataFrame([[<span class="dv">1</span>], [<span class="dv">2</span>], [<span class="dv">3</span>], [<span class="dv">4</span>], [<span class="dv">5</span>]], columns<span class="op">=</span>[<span class="st">&#39;user_id&#39;</span>]), items_df, <span class="dv">10</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>recommendations <span class="op">=</span> pd.merge(recommendations, items_df, on<span class="op">=</span><span class="st">&#39;item_id&#39;</span>, how<span class="op">=</span><span class="st">&#39;left&#39;</span>)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>display(HTML(recommendations.to_html()))</span></code></pre></div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>user_id</th>
+      <th>item_id</th>
+      <th>score</th>
+      <th>term</th>
+      <th>length_of_stay_bucket</th>
+      <th>rate_plan</th>
+      <th>room_segment</th>
+      <th>n_people_bucket</th>
+      <th>weekend_stay</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.0</td>
+      <td>54</td>
+      <td>0.519282</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.0</td>
+      <td>50</td>
+      <td>0.519038</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1.0</td>
+      <td>22</td>
+      <td>0.518759</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.0</td>
+      <td>32</td>
+      <td>0.518615</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.0</td>
+      <td>198</td>
+      <td>0.518461</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>1.0</td>
+      <td>77</td>
+      <td>0.518376</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>1.0</td>
+      <td>9</td>
+      <td>0.517861</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1.0</td>
+      <td>75</td>
+      <td>0.517737</td>
+      <td>OffSeason</td>
+      <td>[4-7]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>1.0</td>
+      <td>158</td>
+      <td>0.517407</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>1.0</td>
+      <td>56</td>
+      <td>0.515723</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2.0</td>
+      <td>54</td>
+      <td>0.520695</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2.0</td>
+      <td>32</td>
+      <td>0.520411</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2.0</td>
+      <td>50</td>
+      <td>0.520108</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2.0</td>
+      <td>210</td>
+      <td>0.519987</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>2.0</td>
+      <td>22</td>
+      <td>0.519845</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2.0</td>
+      <td>75</td>
+      <td>0.519645</td>
+      <td>OffSeason</td>
+      <td>[4-7]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2.0</td>
+      <td>198</td>
+      <td>0.519599</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2.0</td>
+      <td>56</td>
+      <td>0.519578</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2.0</td>
+      <td>77</td>
+      <td>0.519515</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2.0</td>
+      <td>281</td>
+      <td>0.519438</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>3.0</td>
+      <td>54</td>
+      <td>0.519838</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>3.0</td>
+      <td>32</td>
+      <td>0.519560</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>3.0</td>
+      <td>50</td>
+      <td>0.519320</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>3.0</td>
+      <td>210</td>
+      <td>0.519092</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>3.0</td>
+      <td>22</td>
+      <td>0.519042</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>3.0</td>
+      <td>75</td>
+      <td>0.518788</td>
+      <td>OffSeason</td>
+      <td>[4-7]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>3.0</td>
+      <td>198</td>
+      <td>0.518744</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>3.0</td>
+      <td>56</td>
+      <td>0.518720</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>3.0</td>
+      <td>77</td>
+      <td>0.518660</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>3.0</td>
+      <td>281</td>
+      <td>0.518520</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>4.0</td>
+      <td>54</td>
+      <td>0.521047</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>4.0</td>
+      <td>32</td>
+      <td>0.520777</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>4.0</td>
+      <td>141</td>
+      <td>0.520466</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>4.0</td>
+      <td>50</td>
+      <td>0.520451</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>4.0</td>
+      <td>210</td>
+      <td>0.520404</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>4.0</td>
+      <td>22</td>
+      <td>0.520226</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>4.0</td>
+      <td>281</td>
+      <td>0.520127</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>4.0</td>
+      <td>137</td>
+      <td>0.520073</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[1-1]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>4.0</td>
+      <td>75</td>
+      <td>0.520007</td>
+      <td>OffSeason</td>
+      <td>[4-7]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>4.0</td>
+      <td>198</td>
+      <td>0.519966</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>5.0</td>
+      <td>54</td>
+      <td>0.519544</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>5.0</td>
+      <td>32</td>
+      <td>0.519253</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>5.0</td>
+      <td>50</td>
+      <td>0.519002</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>5.0</td>
+      <td>141</td>
+      <td>0.518968</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>5.0</td>
+      <td>52</td>
+      <td>0.518936</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>5.0</td>
+      <td>210</td>
+      <td>0.518884</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>5.0</td>
+      <td>60</td>
+      <td>0.518857</td>
+      <td>OffSeason</td>
+      <td>[4-7]</td>
+      <td>Nonref</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>5.0</td>
+      <td>22</td>
+      <td>0.518701</td>
+      <td>OffSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[3-4]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>5.0</td>
+      <td>156</td>
+      <td>0.518690</td>
+      <td>LowSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>5.0</td>
+      <td>281</td>
+      <td>0.518605</td>
+      <td>HighSeason</td>
+      <td>[2-3]</td>
+      <td>Standard</td>
+      <td>[160-260]</td>
+      <td>[2-2]</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<section id="tuning-method" class="cell markdown">
+<h1>Tuning method</h1>
+</section>
+<div class="cell code" data-execution_count="478">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> evaluation_and_testing.testing <span class="im">import</span> evaluate_train_test_split_implicit</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>seed <span class="op">=</span> <span class="dv">6789</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="479">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> hyperopt <span class="im">import</span> hp, fmin, tpe, Trials</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> traceback</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tune_recommender(recommender_class, interactions_df, items_df, </span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>                     param_space, max_evals<span class="op">=</span><span class="dv">1</span>, show_progressbar<span class="op">=</span><span class="va">True</span>, seed<span class="op">=</span><span class="dv">6789</span>):</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Split into train_validation and test sets</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    shuffle <span class="op">=</span> np.arange(<span class="bu">len</span>(interactions_df))</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>    rng <span class="op">=</span> np.random.RandomState(seed<span class="op">=</span>seed)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>    rng.shuffle(shuffle)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>    shuffle <span class="op">=</span> <span class="bu">list</span>(shuffle)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    train_test_split <span class="op">=</span> <span class="fl">0.8</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    split_index <span class="op">=</span> <span class="bu">int</span>(<span class="bu">len</span>(interactions_df) <span class="op">*</span> train_test_split)</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    train_validation <span class="op">=</span> interactions_df.iloc[shuffle[:split_index]]</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    test <span class="op">=</span> interactions_df.iloc[shuffle[split_index:]]</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Tune</span></span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> loss(tuned_params):</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        recommender <span class="op">=</span> recommender_class(seed<span class="op">=</span>seed, <span class="op">**</span>tuned_params)</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>        hr1, hr3, hr5, hr10, ndcg1, ndcg3, ndcg5, ndcg10 <span class="op">=</span> evaluate_train_test_split_implicit(</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>            recommender, train_validation, items_df, seed<span class="op">=</span>seed)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="op">-</span>hr10</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>    n_tries <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>    succeded <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>    try_id <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> <span class="kw">not</span> succeded <span class="kw">and</span> try_id <span class="op">&lt;</span> n_tries:</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>            trials <span class="op">=</span> Trials()</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>            best_param_set <span class="op">=</span> fmin(loss, space<span class="op">=</span>param_space, algo<span class="op">=</span>tpe.suggest, </span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>                                  max_evals<span class="op">=</span>max_evals, show_progressbar<span class="op">=</span>show_progressbar, trials<span class="op">=</span>trials, verbose<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>            succeded <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>            traceback.print_exc()</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>            try_id <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> succeded:</span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Validate</span></span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a>    recommender <span class="op">=</span> recommender_class(seed<span class="op">=</span>seed, <span class="op">**</span>best_param_set)</span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> [[recommender_class.<span class="va">__name__</span>] <span class="op">+</span> <span class="bu">list</span>(evaluate_train_test_split_implicit(</span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>        recommender, {<span class="st">&#39;train&#39;</span>: train_validation, <span class="st">&#39;test&#39;</span>: test}, items_df, seed<span class="op">=</span>seed))]</span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> pd.DataFrame(results, </span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>                           columns<span class="op">=</span>[<span class="st">&#39;Recommender&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="68203a2859">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="773f253744">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0c445e4c39">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="571f05176667">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e9a7adaaaea9d8">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2f616b6c686f1c">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="602e2423272055">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bbf5fff8fcfb8a8b">[email&#160;protected]</a>&#39;</span>])</span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-53"><a href="#cb16-53" aria-hidden="true" tabindex="-1"></a>    display(HTML(results.to_html()))</span>
+<span id="cb16-54"><a href="#cb16-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb16-55"><a href="#cb16-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> best_param_set</span></code></pre></div>
+</div>
+<section id="tuning-of-the-recommender" class="cell markdown">
+<h2>Tuning of the recommender</h2>
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> Tune your model using the code below. You only need to put the class name of your recommender and choose an appropriate parameter space.</p>
+</section>
+<div class="cell code" data-execution_count="482">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>param_space <span class="op">=</span> {</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;n_neg_per_pos&#39;</span>: hp.quniform(<span class="st">&#39;n_neg_per_pos&#39;</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">1</span>),</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;hidden_dim1&#39;</span>: hp.quniform(<span class="st">&#39;hidden_dim1&#39;</span>, <span class="dv">2</span>, <span class="dv">300</span>, <span class="dv">1</span>),</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;hidden_dim2&#39;</span>: hp.quniform(<span class="st">&#39;hidden_dim2&#39;</span>, <span class="dv">2</span>, <span class="dv">150</span>, <span class="dv">1</span>),</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;hidden_dim3&#39;</span>: hp.quniform(<span class="st">&#39;hidden_dim3&#39;</span>, <span class="dv">2</span>, <span class="dv">300</span>, <span class="dv">1</span>),</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;n_epochs&#39;</span>: <span class="dv">30</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;batch_size&#39;</span>: <span class="dv">8000</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>best_param_set <span class="op">=</span> tune_recommender(NNRecommender, interactions_df, items_df,</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>                                  param_space, max_evals<span class="op">=</span><span class="dv">20</span>, show_progressbar<span class="op">=</span><span class="va">True</span>, seed<span class="op">=</span>seed)</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Best parameters:&quot;</span>)</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(best_param_set)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>100%|██████████| 20/20 [44:50&lt;00:00, 134.50s/trial, best loss: -0.20440118493440543]
+</code></pre>
+</div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Recommender</th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="78302a3849">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="662e342655">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d39b8193e6">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="175f45572627">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fcb2b8bfbbbccd">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="26686265616615">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="da949e999d9aef">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e9a7adaaaea9d8d9">[email&#160;protected]</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NNRecommender</td>
+      <td>0.020706</td>
+      <td>0.058384</td>
+      <td>0.092329</td>
+      <td>0.174134</td>
+      <td>0.020706</td>
+      <td>0.041945</td>
+      <td>0.055835</td>
+      <td>0.082031</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="output stream stdout">
+<pre><code>Best parameters:
+{&#39;hidden_dim1&#39;: 35.0, &#39;hidden_dim2&#39;: 15.0, &#39;hidden_dim3&#39;: 68.0, &#39;n_neg_per_pos&#39;: 2.0}
+</code></pre>
+</div>
+</div>
+<section id="final-evaluation" class="cell markdown">
+<h1>Final evaluation</h1>
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> Run the final evaluation of your recommender and present its results against the Amazon and Netflix recommenders' results. You just need to give the class name of your recommender and its tuned parameters below.</p>
+<p>It's optional, but for better effect you can include here the results from all recommenders created during in this class.</p>
+</section>
+<div class="cell code" data-execution_count="480">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>nn_recommender <span class="op">=</span> NNRecommender(n_neg_per_pos<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>hidden_dim1<span class="op">=</span><span class="dv">9</span>, hidden_dim2<span class="op">=</span><span class="dv">6</span>, hidden_dim3<span class="op">=</span><span class="dv">12</span>,</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>n_epochs<span class="op">=</span><span class="dv">30</span>, batch_size <span class="op">=</span> <span class="dv">8000</span>, lr <span class="op">=</span> <span class="fl">0.001</span>, weight_decay<span class="op">=</span><span class="fl">0.0001</span>)  <span class="co"># Initialize your recommender here</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Give the name of your recommender in the line below</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>nn_tts_results <span class="op">=</span> [[<span class="st">&#39;NNRecommender&#39;</span>] <span class="op">+</span> <span class="bu">list</span>(evaluate_train_test_split_implicit(</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    nn_recommender, interactions_df, items_df))]</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>nn_tts_results <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>    nn_tts_results, columns<span class="op">=</span>[<span class="st">&#39;Recommender&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="90d8c2d0a1">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="357d677506">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ffb7adbfca">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="561e04166766">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dc92989f9b9ced">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="47090304000774">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="82ccc6c1c5c2b7">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e7a9a3a4a0a7d6d7">[email&#160;protected]</a>&#39;</span>])</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>display(HTML(nn_tts_results.to_html()))</span></code></pre></div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Recommender</th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b9f1ebf988">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d59d8795e6">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0a42584a3f">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="450d17057475">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3c72787f7b7c0d">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c18f85828681f2">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="efa1abaca8afda">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a5ebe1e6e2e59495">[email&#160;protected]</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NNRecommender</td>
+      <td>0.050577</td>
+      <td>0.096741</td>
+      <td>0.160557</td>
+      <td>0.236253</td>
+      <td>0.050577</td>
+      <td>0.078059</td>
+      <td>0.103683</td>
+      <td>0.128583</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> recommenders.amazon_recommender <span class="im">import</span> AmazonRecommender</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>amazon_recommender <span class="op">=</span> AmazonRecommender()</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>amazon_tts_results <span class="op">=</span> [[<span class="st">&#39;AmazonRecommender&#39;</span>] <span class="op">+</span> <span class="bu">list</span>(evaluate_train_test_split_implicit(</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    amazon_recommender, interactions_df, items_df))]</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>amazon_tts_results <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    amazon_tts_results, columns<span class="op">=</span>[<span class="st">&#39;Recommender&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="38706a7809">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fcb4aebccf">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="fcb4aebcc9">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="216973611011">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2b656f686c6b1a">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5c12181f1b1c6f">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="dc92989f9b9ce9">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a3ede7e0e4e39293">[email&#160;protected]</a>&#39;</span>])</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>display(HTML(amazon_tts_results.to_html()))</span></code></pre></div>
+<div class="output display_data">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Recommender</th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c38b9183f2">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b0f8e2f083">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bbf3e9fb8e">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bff7edff8e8f">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d69892959196e7">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="95dbd1d6d2d5a6">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a8e6ecebefe89d">[email&#160;protected]</a></th>
+      <th><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6628222521265756">[email&#160;protected]</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AmazonRecommender</td>
+      <td>0.044128</td>
+      <td>0.118805</td>
+      <td>0.160557</td>
+      <td>0.223693</td>
+      <td>0.044128</td>
+      <td>0.086755</td>
+      <td>0.104216</td>
+      <td>0.124472</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> recommenders.netflix_recommender <span class="im">import</span> NetflixRecommender</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>netflix_recommender <span class="op">=</span> NetflixRecommender(embedding_dim<span class="op">=</span><span class="dv">8</span>, n_epochs<span class="op">=</span><span class="dv">200</span>, print_type<span class="op">=</span><span class="st">&#39;live&#39;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>netflix_tts_results <span class="op">=</span> [[<span class="st">&#39;NetflixRecommender&#39;</span>] <span class="op">+</span> <span class="bu">list</span>(evaluate_train_test_split_implicit(</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>    netflix_recommender, interactions_df, items_df))]</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>netflix_tts_results <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    netflix_tts_results, columns<span class="op">=</span>[<span class="st">&#39;Recommender&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ca82988afb">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a7eff5e794">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bcf4eefc89">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a6eef4e69796">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="eea0aaada9aedf">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3f717b7c787f0c">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8ec0cacdc9cebb">[email&#160;protected]</a>&#39;</span>, <span class="st">&#39;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="a7e9e3e4e0e79697">[email&#160;protected]</a>&#39;</span>])</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>display(HTML(netflix_tts_results.to_html()))</span></code></pre></div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>tts_results <span class="op">=</span> pd.concat([nn_tts_results, amazon_tts_results, netflix_tts_results]).reset_index(drop<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>display(HTML(tts_results.to_html()))</span></code></pre></div>
+</div>
+<section id="summary" class="cell markdown">
+<h1>Summary</h1>
+<p><span style="color:red"><font size="4"><strong>Task:</strong></font></span><br> Write a summary of your experiments. What worked well and what did not? What are your thoughts how could you possibly further improve the model?</p>
+</section>
+<div class="cell markdown">
+<p>The answer to that question you can find in a report.md file on this repository.</p>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
