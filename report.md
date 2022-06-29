@@ -5,10 +5,10 @@
 <h2>Results</h2>
 
  - Model 1 best result:
-<img src="best_result_model_1_with_only_one_hot_features.png">
+<img src="assets/best_result_model_1_with_only_one_hot_features.png">
 
  - Model 2 best result:
-<img src="best_result_model_2_with_only_one_hot_features.png">
+<img src="assets/best_result_model_2_with_only_one_hot_features.png">
 
 <h2>The best achieved result params:<h2>
 
@@ -44,8 +44,8 @@
 
 <h2>Tuning prove<h2>
 
-<img src="tuning1.png">
-<img src="tuning2.png">
-<img src="tuning3.png">
+<img src="assets/tuning1.png">
+<img src="assets/tuning2.png">
+<img src="assets/tuning3.png">
 
 <h4>There were more tests while tuning but there is no need for showing them all and comparing.</h4>

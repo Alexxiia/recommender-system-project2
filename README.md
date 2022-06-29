@@ -22,7 +22,7 @@ There are 2 ".ipynb" files which contains code execution and they are main part 
 
 <b>The best achieved result is on model 2 and HR@10 = 0.236253</b>
 
-<img src="best_result_model_2_with_only_one_hot_features.png">
+<img src="assets/best_result_model_2_with_only_one_hot_features.png">
 
 <br>
 
