@@ -10,6 +10,9 @@
  - Model 2 best result:
 <img src="assets/best_result_model_2_with_only_one_hot_features.png">
 
+ - Model 2 best result with additional user features:
+<img src="assets/best_result_model_2_with_additional_user_features.png">
+
 <h2>The best achieved result params:</h2>
 <h4>
 <li>n_neg_per_pos=2</li>
